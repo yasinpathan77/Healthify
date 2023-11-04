@@ -1,0 +1,149 @@
+﻿body {
+    background-color: #f0f0f5;
+}
+/* left side card infor */
+.offline-online-details .left-side-info, .right-side-info {
+    margin-left: 68;
+}
+
+.line_bottom {
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.offline-online-details .left-side-info {
+    border-radius: 0.7ch;
+    padding: 5 2 10 5;
+    width: 440px;
+    box-shadow: 1px 5px 3px 0 rgb(45 45 51 / 8%);
+    position: sticky;
+    top: 5px;
+}
+
+
+    .offline-online-details .left-side-info h1 {
+        text-align: center;
+        font-size: 17px;
+        font-weight: 550;
+    }
+
+    .offline-online-details .left-side-info h5 {
+        color: black;
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 17px;
+    }
+
+
+    .offline-online-details .left-side-info span {
+        margin-top: 13;
+        line-height: 1.6;
+        font-size: 13.2px;
+        font-weight: 400;
+        color: #787887;
+    }
+
+    .offline-online-details .left-side-info .doctor-img-style {
+        height: 80px;
+        width: 80px;
+        margin-top: 15;
+        margin-bottom: 15;
+        border-radius: 8%;
+    }
+
+
+    .offline-online-details .left-side-info .hospital-img-style {
+        height: 98px;
+        width: 98;
+        margin-top: 25;
+    }
+
+
+/* right side card info  */
+
+
+.offline-online-details .right-side-info h1 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+.offline-online-details .right-side-info h5 {
+    color: black;
+    font-size: 15px;
+    font-weight: 550;
+    margin: 20 0;
+}
+
+
+.offline-online-details .right-side-info .box-style {
+    width: 88%;
+    height: 5.5%;
+    padding: 10px;
+    border: 1px solid #b4b4be;
+    border-radius: 3px;
+    line-height: 1.4;
+    outline: none;
+    background-color: #fff;
+    color: #414146;
+    font-size: 14px;
+}
+
+
+.offline-online-details .right-side-info .details label {
+    color: black;
+    font-size: 14px;
+    margin-top: 11;
+    margin-bottom: 12;
+}
+
+
+.offline-online-details .right-side-info .payment-box-style {
+    width: 40%;
+    height: 50px;
+    padding: 10px;
+    font-weight: 550;
+    margin-top: 40;
+    border: 1px solid #b4b4be;
+    border-radius: 3px;
+    line-height: 1.4;
+    outline: none;
+    background-color: #fff;
+    color: #414146;
+    font-size: 14px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+}
+
+
+.offline-online-details .right-side-info .confirm-btn-style {
+    width: 88%;
+    height: 5%;
+    padding: 5px;
+    font-weight: 550;
+    margin-top: 40;
+    border: 1px solid #b4b4be;
+    border-radius: 8px;
+    line-height: 1.4;
+    outline: none;
+    border: 1px solid #13aedd;
+    background-color: #13aedd;
+    color: #fff;
+    font-size: 14px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+}
+
+
+.offline-online-details .right-side-info .terms-conditions {
+    width: 85%;
+    margin-top: 20;
+    font-size: 12.5;
+}
+
+.alerts {
+    padding-top: 1px;
+    color: red;
+    font-size: 13px;
+}
+
+.input-alert {
+    border: 1px solid red;
+}

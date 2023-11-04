@@ -1,0 +1,407 @@
+﻿
+<html>
+
+<head>
+    <link rel="icon" type="image/x-icon" href="../../images/favicon.png">
+
+    <title>payment</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap main link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- css link -->
+    <!-- <link rel="stylesheet" href="../../css/doc-det_css/dd-payment-successfully.css"> -->
+    <!--Google icon -->
+    <script src="https://kit.fontawesome.com/849b321cb3.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+
+        header {
+            background-color: white;
+        }
+
+            header .logo {
+                font-size: 1.7rem !important;
+                font-weight: 700;
+                letter-spacing: 0.8px;
+                color: #28328c !important;
+                font-family: "Poppins", sans-serif;
+            }
+
+
+header .logo {
+    font-size: 1.7rem !important;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    color: #28328c !important;
+    font-family: "Poppins", sans-serif;
+}
+
+
+/*  */
+
+.spacebetween {
+    margin-top: 76px;
+}
+
+.heading_style {
+    font-size: 23px;
+    font-weight: 600;
+}
+
+
+
+
+
+        .main-pagnation {
+            display: var(--pagination-hidden);
+        }
+
+        .user-name {
+            max-width: 250px;
+            display: inline-block;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+
+            .user-name:focus, .user-name:hover {
+                color: #28328c;
+            }
+
+        .user-style {
+            border: none;
+            margin-right: -35px !important;
+            background-color: white;
+            color: #28328c !important;
+            margin-top: 2px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-family: "Roboto Slab" sans-serif;
+            ;
+            font-weight: 500;
+            transition: ease-out 0.5s;
+        }
+
+            .user-style img {
+                height: 40px;
+                width: 40px;
+                border-radius: 98%;
+                margin-left: 7px;
+            }
+
+            .user-style button:focus {
+                outline: none;
+            }
+
+        .drop-style {
+            background-color: white;
+            color: black;
+            font-size: 1rem;
+            border: none;
+            font-weight: 500;
+        }
+
+        .user-style .dropdown-menu {
+            border-radius: 4px;
+        }
+
+        .dropdown-menu {
+            padding-top: 0px !important;
+            padding-bottom: 0px;
+        }
+
+        .user-style .dropdown-menu a {
+            border-bottom: 1px solid #e3e3e3;
+            text-align: left;
+            padding: 8.5px 18.5px;
+            color: black;
+        }
+
+            .user-style .dropdown-menu a:hover {
+                transition: ease-in 0.2s;
+                background-color: #28328c;
+                color: white !important;
+            }
+
+        .user-style .dropdown-menu .dropdown-item:active, .dropdown-item:focus {
+            padding: 10px 40px;
+            color: white;
+        }
+
+        .navbar .navbar-nav .login:hover, .navbar .navbar-nav .login:focus:hover {
+            color: #fff !important;
+            box-shadow: inset 0 -100px 0 0 #375295;
+        }
+
+
+        body {
+            background-color: #f0f0f5;
+        }
+
+
+
+        .pay-success .card {
+            box-shadow: 1px 5px 30px 0 rgb(45 45 51 / 8%);
+            padding: 0 20
+        }
+
+
+        .pay-success .price-style {
+            margin-top: 5%;
+            background-color: darkblue;
+            text-align: center;
+            padding: 5;
+            color: white;
+            border-radius: 15px 15px 0px 0px;
+        }
+
+            .pay-success .price-style h3 {
+                padding-top: 5;
+                font-size: 16px;
+                font-weight: 400;
+            }
+
+        .payment-pg .price-style span {
+            padding-top: 5;
+            font-weight: 600;
+        }
+
+        .pay-success .price-style span {
+            padding-top: 5;
+            font-weight: 600;
+        }
+
+        .pay-success .pay-title {
+            width: 100%;
+            padding: 23px;
+            border: 1px solid #b4b4be;
+            border-radius: 0px 0px 10px 10px;
+            line-height: 1.4;
+            outline: none;
+            background-color: #f0f0f5;
+            color: #414146;
+            font-size: 10px;
+        }
+
+
+
+            /* right side card info  */
+
+            .pay-success .pay-title h5 {
+                color: darkblue;
+                font-size: 30px;
+                font-weight: 600;
+            }
+
+            .pay-success .pay-title .det-print {
+                color: rgb(73, 73, 73);
+                padding-left: 7px;
+                font-weight: 500;
+                font-size: 1rem;
+            }
+
+            .pay-success .pay-title ul {
+                margin-left: -20;
+            }
+
+            .pay-success .pay-title div {
+                padding-top: 20px !important;
+            }
+
+            .pay-success .pay-title span {
+                color: black;
+                padding-top: 20px !important;
+                font-size: 1rem;
+                font-weight: 600;
+            }
+
+
+
+        .confirm-btn-style {
+            width: 38%;
+            height: 8%;
+            padding: 5px;
+            font-weight: 550;
+            margin-top: 4%;
+            margin-left: 34%;
+            margin-bottom: 4%;
+            border: 1px solid #b4b4be;
+            border-radius: 8px;
+            line-height: 1.4;
+            outline: none;
+            border: 1px solid #13aedd;
+            background-color: #13aedd;
+            font-weight: 600;
+            color: #fff;
+            font-size: 14px;
+            box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- ======= Header ======= -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
+            <div class="container my-2">
+                <a class="navbar-brand logo" href="../../Index.html">HEALTHIFY</a>
+
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto d-flex align-items-center ">
+
+                        <!-- <li><a class="login scrollto" href="user panel/appointment.html"> Login <i class="fas fa-user"></i></a></li> -->
+                        <div class="dropdown user-style">
+                            <button class="drop-style user-name" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Yasin pathan
+                            </button><img src="../../images/user panel/default.jpg" class="avatar " alt="user images" />
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="../user panel/appointment.html"><i class="fas fa-calendar-check mr-2" style="font-size:14px;"></i>Appointment</a>
+                                <a class="dropdown-item" href="../user panel/medical_record.html"> <i class="fas fa-notes-medical mr-2" style="font-size:14px;"></i>Medical Records</a>
+                                <a class="dropdown-item" href="../user panel/feedback.html"><i class="fas fa-thumbs-up mr-2" style="font-size:14px; "></i>Feedback</a>
+                                <a class="dropdown-item" href="../user panel/payment.html"><i class="far fa-credit-card mr-2" style="font-size:14px; "></i>Payment</a>
+                                <a class="dropdown-item" href="../user panel/edit-profile.html"><i class="fas fa-user-edit mr-2" style="font-size:14px; "></i>Edit Profile</a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-sign-out-alt mr-2"></i>Log Out</a>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- end header -->
+    <!-- end header -->
+    <section class="spacebetween pay-success mt-5">
+        <div class="container">
+            <div class="row">
+
+                <div class="col">
+
+                    <div class="card left-side-info" style="min-width:440px;">
+                        <div class="card-body">
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="../../images/doc-det/payment-1.png
+                        " alt="" width="106%" height="auto" class="mb-5" style="margin-top:17.5%; ">
+
+                                </div><!-- 1st col -->
+
+                                <div class="col-md-6 pl-4">
+
+                                    <!-- price tag -->
+                                    <div class="price-style">
+
+                                        <h3 style="font-size:1.2rem;">Appointment Booked Successfully !</h3>
+
+                                    </div>
+
+
+
+
+                                    <div class="pay-title">
+                                        <h5 style="font-size:1.2rem;">Payment Details : </h5>
+
+                                        <div>
+                                            <span>Date of Payment :</span>
+                                            <span id="pay-date" class="det-print"></span>
+                                        </div>
+
+                                        <div>
+                                            <span>Payment ID :</span>
+                                            <span id="pay-id" class="det-print"> </span>
+                                        </div>
+
+                                        <div>
+                                            <span>Transaction ID :</span>
+                                            <span id="txn-id" class="det-print"> </span>
+                                        </div>
+
+                                        <div>
+                                            <span>Appointment ID :</span>
+                                            <span id="order-id" class="det-print"> </span>
+                                        </div>
+
+                                        <div>
+                                            <span>Name of Patient :</span>
+                                            <span id="pat-name" class="det-print"> </span>
+                                        </div>
+
+                                        <div>
+                                            <span>Name of Doctor :</span>
+                                            <span id="doc-name" class="det-print"> </span>
+                                        </div>
+
+                                        <div>
+                                            <span>Date of Appointment :</span>
+                                            <span id="app-date" class="det-print"> </span>
+                                        </div>
+
+                                        <div>
+                                            <span>Time of Appointment :</span>
+                                            <span id="app-time" class="det-print"> </span>
+                                        </div>
+
+                                        <div>
+                                            <span>Amount :</span>
+                                            <span id="price" class="det-print"> </span>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="pay-btn">
+
+                                        <button type="button" id="done-btn" class="confirm-btn-style">DONE   <i class="far fa-check-circle"></i></button>
+
+
+
+
+                                    </div>
+                                    <!-- close -->
+
+                                </div>
+                            </div><!-- end row -->
+
+
+
+
+
+
+
+                        </div><!-- End card body-->
+                    </div><!-- end card -->
+
+
+                </div><!-- left side card col -->
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="spacebetween">
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+
+    <script src="../../js/doc-det_js/payment-successfully.js"></script>
+    <script src="../../js/logged_in_user.js"></script>
+
+</body>
+</html>

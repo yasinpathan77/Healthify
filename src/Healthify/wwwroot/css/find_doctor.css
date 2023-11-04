@@ -1,0 +1,75 @@
+﻿
+.doctor_list .card {
+    /* height: 105%; */
+    justify-content: center;
+    margin-left: 40px;
+    border-radius: 8px;
+    margin-top: 20;
+    padding: 15px 0 15px 0;
+}
+
+    .doctor_list .card:hover {
+        box-shadow: 0px 3px 8px 0 rgba(36, 36, 41, 0.08);
+    }
+
+    .doctor_list .card img {
+        height: 160px;
+        width: 163px;
+        padding: 10;
+        margin-top: 30;
+        margin-left: 30;
+        border-radius: 200%;
+    }
+
+    .doctor_list .card .card-title {
+        color: darkblue;
+    }
+
+    .doctor_list .card span {
+        color: #787887;
+    }
+
+    .doctor_list .card button {
+        padding: 8;
+        padding-left: 40;
+        padding-right: 40;
+        background-color: #13aedd;
+        border: 1px solid #13aedd;
+        font-weight: 400;
+        color: white;
+        border-radius: 5px;
+    }
+
+        .doctor_list .card button:active {
+            border: none;
+        }
+
+.em-li {
+    width: 100%;
+    text-align: center;
+}
+
+    .em-li img {
+        width: 40%;
+        height: 40%;
+    }
+
+    .em-li .h4 {
+        margin-top: 2%;
+    }
+
+    .em-li a {
+        text-decoration: none;
+    }
+
+        .em-li a:hover {
+            color: red;
+        }
+
+@media (max-width: 992px) {
+    .doctor_list .card button {
+        padding: 6;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+}

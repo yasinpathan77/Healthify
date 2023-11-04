@@ -1,0 +1,414 @@
+﻿/* https://amazing-hypatia-278f06.netlify.app/ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+.hero {
+    width: 100%;
+    height: 89%;
+    overflow: hidden;
+    position: relative;
+}
+
+    .hero .carousel, .hero .carousel-inner, .hero .carousel-item, .hero .carousel-item::before {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+    }
+
+    .hero .carousel-item {
+        background-size: cover;
+        background-position: top center;
+        background-repeat: no-repeat;
+    }
+    /* .hero .carousel-item::before {
+  /* content: ""; */
+    /* background-color: rgba(17, 17, 17, 0.5); */
+
+    .hero .carousel-container {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        bottom: 0;
+        top: 10px;
+        left: 50px;
+        right: 50px;
+    }
+
+    .hero h2 {
+        color: rgb(0, 0, 0);
+        margin: 0;
+        font-size: 42px;
+        font-weight: 720;
+    }
+
+    .hero p {
+        -webkit-animation-delay: 0.4s;
+        animation-delay: 0.4s;
+        color: rgb(0, 0, 0);
+        margin-top: 10px;
+        font-size: 15px;
+        word-spacing: 1px;
+        line-height: 23px;
+    }
+
+@media (min-width: 1200px) {
+    .hero p {
+        width: 50%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .hero p {
+        width: 44%;
+        font-size: 13px;
+    }
+
+    .read_article .read_card {
+        width: 18rem;
+    }
+
+    .read_article .read_imgcard {
+        width: 15rem !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .hero h2 {
+        font-size: 32px;
+    }
+
+    .hero p {
+        width: 40%;
+        font-size: 13px;
+    }
+
+    .read_article .read_card {
+        margin-top: 0 !important;
+        margin-left: 0 !important;
+    }
+
+    .read_article .read_card {
+        width: 15rem !important;
+    }
+
+    .read_article .read_imgcard {
+        width: 12rem !important;
+    }
+}
+
+
+
+.hero .btn-get-started {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 14px 32px;
+    border-radius: 4px;
+    transition: 0.5s;
+    line-height: 1;
+    color: #fff;
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+    background: #106eea;
+    margin-top: 15px;
+}
+
+    .hero .btn-get-started:hover {
+        background: #13aedd;
+        text-decoration: none;
+    }
+
+@media (max-width: 992px) {
+    .hero {
+        height: 40vh;
+        width: auto;
+    }
+
+        .hero .carousel-container {
+            /* text-align: center; */
+            top: 74px;
+        }
+}
+
+@media (max-width: 768px) {
+    .hero h2 {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .hero .carousel-control-prev, hero .carousel-control-next {
+        width: 100%;
+    }
+}
+
+@media (max-height: 500px) {
+    .hero {
+        height: 30vh;
+    }
+}
+
+.btn-style {
+    color: white;
+    border: 1px solid #13aedd;
+    background-color: #13aedd;
+    border-radius: 6px;
+    padding: 9px 32px;
+    font-weight: 550;
+    font-size: 0.9rem;
+    display: inline-block;
+    margin-top: 29px;
+    margin-left: 1px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+    .btn-style:hover {
+        color: white;
+        border: 1px solid #13aedd;
+        background-color: #0fbbf0;
+        transition: ease-in-out 0.5s;
+    }
+
+/*  */
+
+
+
+/* consult doctor now  */
+
+.consult_doctor .consult_card {
+    width: 155px;
+    padding: 15 0 0 20;
+    border-style: hidden;
+}
+
+.consult_doctor .consult_name {
+    font-size: 15px;
+    text-align: center;
+    padding-right: 10;
+    width: 95;
+}
+
+.consult_card img {
+    width: 103;
+    margin-left: 10;
+}
+
+.consult_doctor .consult_link {
+    text-decoration: none;
+    padding: 5;
+    margin-top: -24px;
+   
+    margin-right: 7px;
+   
+    text-align: center;
+    cursor: pointer;
+    font-weight: 550;
+    font-size: 13px;
+}
+
+.btn_small {
+    font-size: 14px;
+    color: #13aedd;
+    font-weight: 400;
+    padding: 12px 12px;
+    border: 1.5px solid #13aedd;
+    background-color: #fff;
+    right: 10px;
+    top: 22px;
+    border-radius: 6px;
+}
+
+    .btn_small:hover {
+        color: white;
+        border: 1.5px solid #13aedd;
+        background-color: #0fbbf0;
+        transition: ease-in-out 0.5s;
+    }
+
+
+
+.consult_doctor .consult_link:hover {
+    color: red;
+}
+
+
+
+/* book an appointment */
+
+.book_appointment .book_cards-wrapper {
+    /* padding:5; */
+    display: flex;
+    justify-content: center;
+}
+
+.book_appointment .book_card {
+    margin: 0px 13px;
+    height: 306px;
+    /* box-shadow: 2px 2px 5px 0 rgba(22, 22, 26, 0.18);  */
+    box-shadow: 2px 3px 6px 0 rgb(45 45 51 / 8%);
+    border: none;
+    border-radius: 7px;
+    width: 108%;
+}
+
+.book_appointment .book_carousel-inner {
+    padding: 0.4em;
+    width: 99%;
+}
+
+    .book_appointment .book_carousel-inner img {
+        width: 100%;
+    }
+
+    .book_appointment .book_carousel-inner h5 {
+        font-size: 16px;
+        color:black;
+    }
+
+    .book_appointment .book_carousel-inner p {
+        font-size: 12.5px;
+        line-height: 19px;
+        width: 99.5%;
+        color:gray;
+    }
+    .book_appointment .book_carousel-inner h5{
+        text-decoration:none;
+    }
+.bk-style a{
+    text-decoration:none;
+
+}
+
+
+
+.book_appointment .box-left-arrow {
+    padding: 20px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0 3px 6px 0 rgb(51 60 63 / 22%);
+}
+
+@media (min-width: 768px) {
+    .book_appointment .card .img {
+        height: 13em;
+    }
+}
+
+.book_appointment .slick-next, .slick-prev {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    width: 20px;
+    height: 20px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    z-index: 1;
+    outline: none;
+    background: transparent;
+}
+
+
+/* Read Articles */
+
+.read_article .read_card {
+    border-style: none;
+    margin-top: 100;
+    margin-left: 66;
+    background-color: #f6f9fd;
+    width: 20rem;
+}
+
+.read_article .read_imgcard {
+    margin-top: 50;
+    margin-bottom: 50;
+    background-color: #f6f9fd;
+    border: 0pt;
+    text-align: start;
+    width: 16rem;
+}
+
+.btn-article {
+    font-size: 0.9rem;
+    color: #13aedd;
+    font-weight: 400;
+    padding: 8px 27px;
+    border: 1.5px solid #13aedd;
+    background-color: #f6f9fd;
+    margin-top: 6px;
+    border-radius: 6px;
+}
+
+    .btn-article:hover {
+        color: white;
+        border: 1.5px solid #13aedd;
+        background-color: #27c2f1;
+        transition: ease-in-out 0.5s;
+    }
+
+
+/* what our user have to say*/
+
+
+.user_say .slider-area {
+    padding: 50px 10;
+    position: relative;
+    margin: 0px 0;
+}
+
+.user_say .img-area {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+    .user_say .img-area img {
+        width: 100%;
+    }
+
+.user_say .user_caption {
+    position: static;
+    padding-bottom: 15px;
+    padding-top: 0;
+    width: auto;
+}
+
+    .user_say .user_caption h5 {
+        color: #222222;
+        font-size: 20px;
+        margin: 15 0 25 0;
+    }
+
+.user_say .slide_carousel-indicators {
+    bottom: -35px;
+    color: #222222;
+}
+
+    .user_say .slide_carousel-indicators li {
+        background-color: black;
+        width: 15px;
+    }
+
+.user_say .user_caption p {
+    color: #222222;
+    font-size: 17px;
+    margin: auto;
+    width: 62%;
+    margin-bottom: 10px;
+}

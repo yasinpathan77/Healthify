@@ -1,0 +1,100 @@
+﻿.rightbar .box-style {
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 2%;
+}
+
+    .rightbar .box-style:hover {
+        box-shadow: 1px 1px 7px #999999;
+    }
+
+
+.rightbar .date-box-style {
+    width: 50px;
+    margin-top: 17px;
+    /* margin-top:25%; */
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: #e6e6e6;
+}
+
+.rightbar .doc-detail {
+    padding-left: 9%;
+}
+
+.rightbar .date-box-style h5 {
+    padding-top: 12%;
+    font-size: 1.8rem;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+.rightbar .date-box-style span {
+    font-weight: 700;
+    color: darkgray;
+    font-size: 1.3rem;
+}
+
+.rightbar .doc-detail .app-doc-name {
+    margin-top: 13px;
+}
+
+    .rightbar .doc-detail .app-doc-name .doc-name-style {
+        font-size: 1rem;
+        letter-spacing: 1px;
+        font-weight: 500;
+        color: black;
+    }
+
+.rightbar .doc-detail .app-time {
+    margin-top: 4px;
+    color: #157d00;
+    font-size: 0.8rem;
+    line-height: 18px;
+    font-weight: 490;
+}
+
+.rightbar .doc-detail .app-place {
+    margin-top: 0px;
+    color: #787887;
+    font-size: 0.9rem;
+    line-height: 25px;
+}
+
+
+
+.cancelled-tag {
+    background-color: rgb(226, 51, 51);
+    color: #fff;
+    padding: 3px 9px;
+    border-radius: 3px;
+}
+
+
+.sucessfull-tag {
+    margin-top: 2px;
+    background-color: rgb(49, 216, 49);
+    color: white;
+    padding: 3px 9px;
+    border-radius: 3px;
+}
+
+.btn-style {
+    color: #14bef0;
+    border: 1px solid #14bef0;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 7px 27px;
+    display: inline-block;
+    margin-top: 29px;
+    margin-left: 1px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+    .btn-style:hover {
+        color: white;
+        border: 1px solid #14bef0;
+        background-color: #14bef0;
+    }

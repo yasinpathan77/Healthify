@@ -1,0 +1,144 @@
+﻿
+.bottom-line {
+    border-bottom: 1px solid grey;
+}
+
+.rightbar .box-style {
+    width: 100%;
+    height: 100%;
+    padding-left: 35px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+    .rightbar .box-style .main-heading h5 {
+        color: black;
+        font-size: 1.2rem;
+        padding: 3%;
+        font-weight: 600;
+    }
+
+    .rightbar .box-style .btn-style {
+        color: white;
+        border: 1px solid #14bef0;
+        background-color: #14bef0;
+        border-radius: 5px;
+        padding: 5px 27px;
+        display: inline-block;
+        margin-top: 8%;
+        margin-left: 8px;
+        margin-bottom: 10%;
+    }
+
+        .rightbar .box-style .btn-style:hover {
+            color: white;
+            border: 1px solid #14bef0;
+            background-color: #14bef0;
+        }
+
+    /* name */
+
+    .rightbar .box-style .pic-name-heading .style-img {
+        left: 30%;
+    }
+
+.user-main-img-style {
+    width: 120px;
+    height:161px;
+    border-radius: 55px;
+}
+
+.user-choose-btn-style {
+    background-color: white;
+    color: white;
+    margin-top: 1.5%;
+    margin-left: 45.5%;
+    margin-bottom: 3%;
+}
+
+.rightbar .box-style .pic-name-heading {
+    padding: 32px 0 15px 0;
+    margin-bottom: 3%;
+}
+
+.phone-email-heading {
+    padding: 32px 0 15px 0;
+    margin-bottom: 2.5%;
+}
+
+.birth-blood-heading {
+    padding: 32px 0 15px 0;
+    margin-bottom: 6.5%;
+}
+
+.address-heading {
+    padding: 32px 0 15px 0;
+    margin-bottom: 2.5%;
+}
+
+.address-heading-2 {
+    padding: 32px 0 15px 0;
+    margin-bottom: 6.5%;
+}
+
+.rightbar .box-style .textbox-style {
+    width: 91%;
+    padding: 6.5px;
+    border: 1px solid #b4b4be;
+    border-radius: 3px;
+    line-height: 1.4;
+    outline: none;
+    background-color: #fff;
+    color: #414146;
+    font-size: 14px;
+    top: 1.7rem;
+    position: relative;
+}
+
+
+.rightbar .box-style label {
+    position: absolute;
+    font-size: 12px;
+    line-height: 20px;
+    color: #787887;
+    margin-top: 11;
+    margin-bottom: 12;
+}
+
+
+.rightbar .box-style .drop-style {
+    width: 90%;
+    padding: 5.5px;
+    border: 1px solid #b4b4be;
+    border-radius: 3px;
+    line-height: 1.4;
+    outline: none;
+    background-color: #fff;
+    color: #414146;
+    font-size: 14px;
+    top: 1.5rem;
+    position: relative;
+}
+
+
+.clinic-address-heading {
+    padding: 32px 0 15px 0;
+    margin-bottom: 2.5%;
+}
+
+.clinic-address-heading-2 {
+    padding: 32px 0 15px 0;
+    margin-bottom: 6.5%;
+}
+
+
+
+.address-heading {
+    padding: 32px 0 15px 0;
+    margin-bottom: 2.5%;
+}
+
+.address-heading-2 {
+    padding: 32px 0 15px 0;
+    margin-bottom: 6.5%;
+}

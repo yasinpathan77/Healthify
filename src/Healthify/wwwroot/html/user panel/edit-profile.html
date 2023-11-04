@@ -1,0 +1,345 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/x-icon" href="../../images/favicon.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+
+    <title>Healthify Drive</title>
+
+    <!-- <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/dashboard/"> -->
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    <!-- Custom styles for this template -->
+    <link href="../../css/user_css/user-edit-profile.css" rel="stylesheet">
+    <link href="../../css/user_css/user-common-style.css" rel="stylesheet">
+
+
+
+    <script src="https://kit.fontawesome.com/849b321cb3.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-dark sticky-top flex-md-nowrap p-0">
+        <a class="navbar-brand col-sm-3 col" href="../../Index.html" style="margin-left:0;color: darkblue;">HEALTHIFY</a>
+
+        <div class="dropdown my-acc-style">
+            <button class="account-btn dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-user mr-2" style="font-size:17px;"></i>My Account
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="../doctor/upcoming_app.html"><i class="fa-solid fa-user-doctor  mr-2"></i>Doctor</a></li>
+                <li><a class="dropdown-item" href="appointment.html"><i class="fa-solid fa-user mr-2"></i>Patient</a></li>
+                <li><a class="dropdown-item" href="../../Index.html"><i class="fas fa-sign-out-alt mr-2"></i>Logout</a></li>
+            </ul>
+        </div>
+        <!-- <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search"> -->
+
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+
+
+            <nav class="col-md-2 d-none d-md-block sidebar">
+
+                <div class="main-user-detail">
+
+                    <img id="prof-pic" src="../../images/user panel/default.jpg" alt="User image" >
+                    <h5 id="name"> <a href="edit-profile.html" style="color: black;font-size:13px; "><i class="far fa-edit"></i></a></h5>
+
+
+                </div>
+
+                <div class="sidebar-sticky">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link " href="appointment.html">
+                                <i class="fas fa-calendar-check mr-2" style="font-size:14px; "></i>Appointment
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="medical_record.html">
+                                <i class="fas fa-notes-medical mr-2" style="font-size:14px;"></i>
+                                Medical Records
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="feedback.html">
+                                <i class="fas fa-thumbs-up mr-2" style="font-size:14px; "></i>Feedback
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="payment.html">
+                                <i class="far fa-credit-card mr-2" style="font-size:14px; "></i>Payment
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">
+                                <i class="fas fa-user-edit mr-2" style="font-size:14px; "></i>
+                                Edit Profile
+                            </a>
+                        </li>
+
+                    </ul>
+
+
+
+                </div>
+            </nav>
+
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-4 px-4 rightbar">
+
+                <div class="box-style">
+
+                    <div class="main-heading">
+
+                        <div class="row ">
+                            <div class="col-md-9">
+
+                            </div>
+                            <div class="col-md-3">
+                                <button class="btn-style" id="save-changes">Save changes</button>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                    <form action="" id="profile-form">
+                        <div class="pic-name-heading ">
+
+                            <div class="row ">
+                                <div class="col">
+                                    <div class="style-img justify-content-md-center">
+
+                                        <img src="../../../../images/user panel/default.jpg " alt="" class="user-main-img-style  mx-auto d-block" id="user-img-change">
+
+                                        <input type="file" id="change-image" class="user-choose-btn-style">
+
+                                        <button type="submit" id="save-image"> Save Image </button>
+                                        <br>
+                                        <small id="alert-img"> </small>
+
+
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+
+
+
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <!-- <form action=""> -->
+                                    <label for="fname">First Name</label>
+                                    <input type="text" id="fname" class="textbox-style" placeholder="Enter First Name">
+                                    <!-- </form> -->
+
+                                </div>
+                                <div class="col-md-3">
+                                    <!-- <form action=""> -->
+                                    <label for="lname">Last Name</label>
+                                    <input type="text" id="lname" class="textbox-style" placeholder="Enter Last Name">
+                                    <!-- </form> -->
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="phone-email-heading">
+                            <h5 style="color: gray;font-size:1rem; margin-bottom:1.8%;">Personal Information</h5>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <!-- <form action=""> -->
+                                    <label for="phone">Phone Number</label>
+                                    <input type="text" id="phone" class="textbox-style" placeholder="Enter Phone Number">
+
+
+
+                                    <!-- </form> -->
+                                </div>
+
+
+                                <div class="col-md-3">
+
+                                    <!-- <form action=""> -->
+                                    <label for="gender">Gender</label>
+
+                                    <select id="gender" class="drop-style">
+                                        <option value="Male">Male</option>
+                                        <option value="Female">Female</option>
+                                        <option value="Other">Other</option>
+
+                                    </select>
+
+
+                                    <!-- </form> -->
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+
+
+                        <div class="birth-blood-heading">
+                            <div class="row ">
+                                <div class="col-md-3">
+                                    <!-- <form action=""> -->
+                                    <label for="dob">Date of birth</label>
+
+                                    <input type="date" id="dob" class="textbox-style" min="1940-01-01" max="2004-01-01">
+
+
+
+                                    <!-- </form> -->
+                                </div>
+
+
+                                <div class="col-md-3">
+
+                                    <!-- <form action=""> -->
+                                    <label for="blood">Blood group</label>
+                                    <select id="blood" class="drop-style" style="margin-top:2%;">
+                                        <option value="O+">O+</option>
+                                        <option value="A+">A+</option>
+                                        <option value="B+">B+</option>
+
+                                        <option value="O-">O-</option>
+                                        <option value="A-">A-</option>
+                                        <option value="B-">B-</option>
+
+                                        <option value="AB+">AB+</option>
+                                        <option value="AB-">AB-</option>
+
+                                    </select>
+
+
+                                    <!-- </form> -->
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+                        <!--  birth-blood-heading-->
+                        <!-- address -->
+                        <div class="address-heading">
+                            <h5 style="color: gray;font-size:1rem; margin-bottom:1.5%;">Address</h5>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <!-- <form action=""> -->
+                                    <label for="phone">House No. / Street No. </label>
+                                    <input type="text" id="house" class="textbox-style" placeholder="Enter House No.">
+
+
+
+                                    <!-- </form> -->
+                                </div>
+                                <div class="col-md-3">
+
+                                    <form action="">
+                                        <label for="street">Colony / Street</label>
+                                        <input type="text" id="street" class="textbox-style" placeholder="Enter Street Name">
+
+
+                                    </form>
+                                </div>
+
+                                <div class="col-md-3">
+
+                                    <!-- <form action=""> -->
+                                    <label for="city">City</label>
+                                    <input type="text" id="city" class="textbox-style" placeholder="Enter City">
+
+
+                                    <!-- </form> -->
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+                        <div class="address-heading-2">
+
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <!-- <form action=""> -->
+                                    <label for="state">State</label>
+                                    <input type="text" id="state" class="textbox-style" placeholder="Enter State">
+
+
+
+                                    <!-- </form> -->
+                                </div>
+                                <div class="col-md-3">
+
+                                    <!-- <form action=""> -->
+                                    <label for="country">Country</label>
+                                    <input type="text" id="country" class="textbox-style" placeholder="India" readonly>
+
+
+                                    <!-- </form> -->
+                                </div>
+
+                                <div class="col-md-3">
+
+                                    <!-- <form action=""> -->
+                                    <label for="code">Pincode</label>
+                                    <input type="text" id="pin-code" class="textbox-style" placeholder="Enter Pincode">
+
+
+                                    <!-- </form> -->
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+                        <!-- end aaddress -->
+                    </form>
+                    <!-- main form end -->
+
+                </div>
+                <!-- box style -->`
+            </main>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+
+    <script type="module" src="../../js/user_js/user-edit-profile.js"></script>
+
+    <!--<script type="module" src="../../js/logged_in_user.js"></script>-->
+
+    <!--<script src="../../js/user_js/pagination.js"></script>-->
+    <!--<script type="module" src="../../js/user_js/user-edit-profile.js"></script>-->
+
+
+</body>
+</html>

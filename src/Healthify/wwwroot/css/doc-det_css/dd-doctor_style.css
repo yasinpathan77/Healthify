@@ -1,0 +1,267 @@
+﻿body {
+    background-color: #f0f0f5;
+}
+
+.details_list .card .img-style {
+    height: 150px;
+    width: 155px;
+    padding: 10;
+    margin-top: 15;
+    margin-left: 20;
+    border-radius: 50%;
+}
+
+.details_list .card {
+    border-radius: 0.7ch;
+    padding: 20 10 10 5;
+    box-shadow: 1px 5px 3px 0 rgb(45 45 51 / 8%);
+}
+
+    .details_list .card .card-body h5 {
+        color: black;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .details_list .card .card-body p {
+        margin-top: 13;
+        line-height: 1.6;
+        font-size: 13.2px;
+        font-weight: 400;
+    }
+
+    .details_list .card .card-body .btn_style {
+        padding: 8 30 8 30;
+        border: 1px solid #13aedd;
+        background-color: #13aedd;
+        font-size: 14px;
+        color: white;
+        font-weight: 500;
+        margin-top: 50;
+    }
+
+.info {
+    margin-top: 25;
+}
+
+
+
+.details_list .main_doc_info ul li {
+    line-height: 1.6;
+    font-size: 13.5px;
+    margin-left:40px;
+    margin-top:12.5px;
+    font-weight: 430;
+}
+
+.adv_info {
+    margin-top: 25;
+}
+
+.line_bottom {
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.infoheading_style {
+    text-align: center;
+    font-size: 13.5px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 6px 0px;
+    background-color: grey;
+    color: white;
+}
+
+/*.card-sticky1 {
+    position: sticky;
+    top: 19px;
+}
+*/
+.card-sticky2 {
+    position: sticky;
+/*    top: 43%;*/
+    top:19px
+}
+
+
+    .card-sticky2 .card-body {
+        margin-top: 8px;
+    }
+
+.details_list .carousel-inner .card .tab-content .tab-pane {
+    height: 198px;
+    overflow-y: auto;
+    margin-bottom: 6px;
+}
+
+
+.details_list .carousel-inner .carousel-item .card a {
+    border: none;
+    text-align: center;
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+    cursor:pointer;
+    font-weight: 600;
+}
+
+.details_list .carousel-inner .carousel-item .card li .active {
+    height: 52px;
+    background: #e0e0eb;
+    border-bottom: 3px solid #28328c;
+    color: black;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.details_list .carousel-inner .carousel-item .card a:focus {
+    height:55px;
+    background: #f0f0f5;
+    border-bottom: 3px solid #28328c;
+    color: black;
+    font-size: 13px;
+}
+
+.c-day-session__header {
+    margin-top: 15px;
+}
+
+    .c-day-session__header span {
+        font-size: 0.9rem;
+        font-weight: 550;
+    }
+
+.tab-menu .tab h3 {
+    color: blue;
+}
+
+/* slider left and right button */
+.right-card-style .prev-date {
+    left: -7px;
+    top: 27px;
+    height: 15%;
+}
+
+.right-card-style .next-date {
+    top: 27px;
+    height: 15%;
+}
+
+/* left side time slots button */
+.right-card-style .c-day-session__body {
+    width: 100%;
+}
+
+.right-card-style.c-day-session__slot, .sm .c-day-session__slot-bluebr-style {
+    width: 25%;
+    height: 46px;
+}
+
+
+
+.right-card-style .c-day-session__slot-bluebr-style {
+    /* width: 25%;
+    height: 46px; */
+    padding: 4px;
+    letter-spacing: normal;
+}
+
+
+    .right-card-style .c-day-session__slot-bluebr-style span {
+        font-size: 13px;
+        color: #13aedd;
+        border: 1px solid #13aedd;
+    }
+
+
+        .right-card-style .c-day-session__slot-bluebr-style span:hover {
+            font-size: 13px;
+            background-color: #13aedd;
+            color: white;
+            border: 1px solid #13aedd;
+        }
+
+
+
+    .right-card-style .c-day-session__slot-bluebr-style span, .c-day-session__slot-purple span, .c-day-session__slot-span {
+        width: 88px;
+        margin-left: 5px;
+        border-radius: 3px;
+        padding: 8px 0;
+        margin-top: 18px;
+        display: inline-block;
+        text-align: center;
+        cursor: pointer;
+    }
+
+.c-day-session__slot-bluebr-style a {
+    font-weight: 400 !important;
+}
+
+    .c-day-session__slot-bluebr-style a:active {
+        background-color: #13aedd !important;
+        color: white !important;
+    }
+
+    .c-day-session__slot-bluebr-style a:focus {
+        background-color: white !important;
+        color: #13aedd !important;
+        border: none !important;
+    }
+
+.right-card-style .c-day-session__slot-bluebr-style span:active {
+    border: 1px solid #13aedd;
+    background-color: #13aedd;
+    color: white;
+}
+
+.right-card-style .c-day-session__slot-bluebr-style a {
+    font-size: 14;
+    margin-left: 2;
+    font-weight: 0;
+    text-decoration: none;
+}
+
+    .right-card-style .c-day-session__slot-bluebr-style a:active {
+        color: black;
+    }
+
+.right-card-style .time-heading {
+    font-size: 14;
+    margin-bottom: -5;
+    text-align: center;
+    color: white;
+    background-color: grey;
+    padding: 5;
+    border-radius: 7px;
+}
+
+.right-card-style .noslot-heading-style {
+    font-size: 12;
+    text-align: center;
+    margin: 17;
+}
+
+
+
+.right-card-style .nextdate-style {
+    border: 1px solid #13aedd;
+    background-color: #13aedd;
+    padding: 7 29 7 29;
+    font-size: 14px;
+    font-weight: 550;
+    margin-left: 30;
+    border-radius: 4px;
+    border: none;
+}
+
+.right-card-style .callnow-style {
+    padding: 7 88;
+    font-size: 14px;
+    font-weight: 550;
+    margin-left: 30;
+    border-radius: 4px;
+    background: white;
+    border: 1px solid #13aedd;
+    color: #13aedd;
+}

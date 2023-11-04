@@ -1,0 +1,265 @@
+﻿body {
+    font-size: .875rem;
+    background-color: #e6e6e6;
+}
+
+
+/*
+   * Navbar
+   */
+.navbar {
+    background-color: white;
+    box-shadow: 0 .155rem .35rem rgba(0,0,0,.075) !important;
+    /* box-shadow:0px 0px 11px 0 rgb(45 45 51 / 8%); */
+}
+
+.navbar-brand {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar .form-control {
+    padding: .75rem 1rem;
+    border-width: 0;
+    border-radius: 0;
+}
+
+/* boxs style */
+.bottom-line {
+    border-bottom: 1px solid grey;
+}
+
+.rightbar .box-style {
+    width: 100%;
+    height: 100%;
+    padding-left: 35px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+    .rightbar .box-style .main-heading h5 {
+        color: black;
+        font-size: 1.2rem;
+        padding: 3%;
+        font-weight: 600;
+    }
+
+    .rightbar .box-style .btn-style {
+        color: white;
+        border: 1px solid #14bef0;
+        background-color: #14bef0;
+        border-radius: 5px;
+        padding: 5px 27px;
+        display: inline-block;
+        margin-top: 8%;
+        margin-left: 8px;
+        margin-bottom: 10%;
+    }
+
+        .rightbar .box-style .btn-style:hover {
+            color: white;
+            border: 1px solid #14bef0;
+            background-color: #14bef0;
+        }
+
+    /* name */
+
+    .rightbar .box-style .pic-name-heading .style-img {
+        left: 30%;
+    }
+
+.user-main-img-style {
+    max-width: 12%;
+    border-radius: 101%;
+}
+
+.user-choose-btn-style {
+    background-color: white;
+    color: white;
+    margin-top: 1.5%;
+    margin-left: 46.5%;
+    margin-bottom: 3%;
+}
+/* .pic-name-heading input[type="file"]{
+    font: size 0.7rem;
+    margin-left:5%;
+    background-color: #14bef0;
+    color: #14bef0;
+ } */
+
+
+.pic-name-heading input[type=file]::file-selector-button {
+    border: 2px solid #14bef0;
+    padding: .2em .4em;
+    border-radius: .2em;
+    color: #fff;
+    background-color: #14bef0;
+    transition: 1s;
+}
+
+.rightbar .box-style .pic-name-heading {
+    padding: 32px 0 15px 0;
+    margin-bottom: 3%;
+}
+
+.phone-email-heading {
+    padding: 32px 0 15px 0;
+    margin-bottom: 2.5%;
+}
+
+.birth-blood-heading {
+    padding: 32px 0 15px 0;
+    margin-bottom: 6.5%;
+}
+
+.clinic-address-heading {
+    padding: 32px 0 15px 0;
+    margin-bottom: 2.5%;
+}
+
+.clinic-address-heading-2 {
+    padding: 32px 0 15px 0;
+    margin-bottom: 6.5%;
+}
+
+
+
+.address-heading {
+    padding: 32px 0 15px 0;
+    margin-bottom: 2.5%;
+}
+
+.address-heading-2 {
+    padding: 32px 0 15px 0;
+    margin-bottom: 6.5%;
+}
+
+.rightbar .box-style .textbox-style {
+    width: 91%;
+    padding: 6.5px;
+    border: 1px solid #b4b4be;
+    border-radius: 3px;
+    line-height: 1.4;
+    outline: none;
+    background-color: #fff;
+    color: #414146;
+    font-size: 14px;
+    top: 1.7rem;
+    position: relative;
+}
+
+
+.rightbar .box-style label {
+    position: absolute;
+    font-size: 12px;
+    line-height: 20px;
+    color: #787887;
+    margin-top: 11;
+    margin-bottom: 12;
+}
+
+
+.rightbar .box-style .drop-style {
+    width: 90%;
+    padding: 5.5px;
+    border: 1px solid #b4b4be;
+    border-radius: 3px;
+    line-height: 1.4;
+    outline: none;
+    background-color: #fff;
+    color: #414146;
+    font-size: 14px;
+    top: 1.5rem;
+    position: relative;
+}
+
+.main-heading .modal .modal-header {
+    background-color: #28328c;
+    border-top-left-radius: calc(0.0rem - 0px);
+    border-top-right-radius: calc(0.0rem - 0px);
+}
+
+    .main-heading .modal .modal-header .main-title {
+        font-size: 1rem;
+        color: white;
+        font-weight: 650;
+    }
+
+.close-btn-style {
+    background-color: white;
+    font-size: 0.8rem;
+    padding: 1.5% 8%;
+    border: 1px solid #14bef0;
+    color: #14bef0;
+    font-weight: 550;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
+
+
+
+    .close-btn-style:hover {
+        border: 1px solid #14bef0;
+        background-color: #14bef0;
+        color: white;
+        letter-spacing: 1px;
+        font-weight: 550;
+    }
+
+.done-btn-style {
+    background-color: white;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    padding: 1.5% 8%;
+    border: 1px solid #14bef0;
+    background-color: #14bef0;
+    color: white;
+    font-weight: 550;
+    border-radius: 5px;
+}
+
+.alert {
+    border: 1px solid red;
+}
+
+.alert-txt {
+    color: red;
+    font-style: italic;
+}
+
+#alert-img {
+    text-align: center;
+    margin: auto;
+    display: block;
+    margin-top: -20px;
+    display: none;
+}
+
+
+#certificate {
+    margin-top: 25px;
+    /* background-color: white; */
+    /* color: rgba(0,0,0,0); */
+    /* display: none; */
+    height: 30px;
+    /* width: 90px; */
+    padding-right: 10px;
+    /* visibility: none; */
+}
+
+.required {
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.alert-head {
+    color: red;
+    text-align: center;
+    /* display: none; */
+    transition: all 0.2s;
+}

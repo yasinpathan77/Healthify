@@ -1,0 +1,705 @@
+﻿<html>
+
+<head>
+    <link rel="icon" type="image/x-icon" href="../../images/favicon.png">
+    <title>doctor</title>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap main link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- css link -->
+    <link rel="stylesheet" href="../../css/nav_fotter.css">
+    <link rel="stylesheet" href="../../css/doc-det_css/dd-doctor_style.css">
+
+
+    <!--Google icon -->
+    <script src="https://kit.fontawesome.com/849b321cb3.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+</head>
+
+<body>
+
+
+    <!-- ======= Header ======= -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
+            <div class="container my-2">
+                <a class="navbar-brand logo" href="../../Index.html">HEALTHIFY</a>
+                <form action="#" method="POST">
+                    <div class="input-group input-navbar">
+                        <div class="input-group-prepend">
+                            <span>
+                                <ion-icon class="icon-col" name="search-outline"></ion-icon>
+                            </span>
+                            <input class="form-control search-width" type="search" placeholder="Search Doctors & Specialists"
+                                   aria-label="Search" id="search-bar">
+
+                            <ul class="searchresult" id="searchr-result1">
+                            </ul>
+
+                        </div>
+                    </div>
+                </form>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto d-flex align-items-center pd-760">
+                        <li class="nav-item pr-sm-1 ">
+                            <a class="nav-link" href="../find_doctor.html">Find Doctor</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../video_consult.html">Video Consult</a>
+                        </li>
+                        <!-- <li class="nav-item"><a class="nav-link active" href="steps-to-doc.html">Doctor Services</a></li> -->
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link"><span>Doctor Services</span></a>
+                            <ul>
+                                <li><a href="../steps-to-doc.html">Registration for Doctor</a></li>
+                                <li><a href="../doc-features.html">Doctor Facilities</a></li>
+                                <li><a href="../doctor/upcoming_app.html">Doctor Services</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="about-us.html">About Us</a></li>
+
+
+
+                        <li>
+                            <div class="dropdown user-style">
+
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- left side information -->
+
+
+    <section class="spacebetween details_list">
+        <div class="container">
+
+            <!-- doctor 1 -->
+
+            <div class="row">
+
+                <div class="col-md-8">
+
+                    <div class="card" style="max-width:1040px;">
+
+                        <div class="row no-gutters">
+                            <div class="col-md-3">
+                                <img id="doc-img" src="" class="card-img img-style" alt="">
+
+                            </div><!-- end col -->
+
+                            <div class="col-md-9  ">
+                                <div class="card-body">
+                                    <h5 class="card-title" id="doc-name"><i class="fas fa-user-md"></i> </h5>
+
+                                    <!-- degree & qualification -->
+                                    <div class="">
+                                        <span id="qual"> </span>
+                                    </div>
+
+                                    <!-- specialits -->
+                                    <div id="specs">
+                                        <span> </span>
+                                    </div>
+
+                                    <!-- experience year -->
+                                    <div>
+                                        <span id="expr"> </span>
+                                    </div>
+
+                                    <!-- Verification -->
+                                    <!-- <div class="mt-4">
+                                      <p> <i class="fas fa-check-circle"></i> Medical Registration Verified</p>
+                                      <p> <i class="fas fa-thumbs-up"></i> </p>
+                                    </div> -->
+                                    <!-- doctor summary -->
+
+                                    <div>
+                                        <p id="desc">
+
+                                        </p>
+                                    </div>
+
+                                </div><!-- card body -->
+
+
+
+
+
+                            </div> <!-- end col -->
+
+                        </div>
+
+                    </div>
+                    <!-- end main card -->
+                    <!-- below information card -->
+
+
+
+
+                    <div class="card info" style="max-width:1040px;">
+                        <h2 class="infoheading_style">INFORMATION </h2>
+                        <h5 style="font-size:15px;padding-left:20;padding-top:20;">
+                            <i class="fas fa-map-marker-alt"></i>
+
+                            <span id="loc"> </span>
+                        </h5>
+
+                        <div class="row no-gutters">
+                            <div class="col-md-5">
+
+                                <div class="card-body">
+                                    <!-- doctor place name -->
+                                    <h5 id="cl-name"> </h5>
+
+                                    <!-- doctor address -->
+                                    <p class="c-profile--clinic__address" data-qa-id="clinic-address" id="address">
+
+                                    </p>
+
+                                </div>
+
+
+
+
+                            </div><!-- end address col -->
+                            <!-- timing col -->
+                            <div class="col-md-3">
+                                <div class="card-body">
+
+                                    <div id="schedule" class="pure-u-1-3 u-cushion--left">
+
+
+                                    </div>
+
+
+                                </div><!-- card body -->
+
+                            </div> <!-- end timing col -->
+                            <!-- fees and book appointment col -->
+
+                            <div class="col-md-4">
+                                <div class="card-body">
+                                    <!-- fee text-->
+
+                                    <div>
+                                        <h5 data-qa-id="consultation_fee" class="" id="fee">
+                                        </h5>
+                                    </div>
+                                    
+
+                                </div><!-- card body -->
+
+                            </div>
+
+                        </div>
+
+                    </div><!-- end infornation card -->
+                    <!-- Comman question and answer -->
+                    <div class="card info" style="max-width:1040px;">
+                        <h2 class="infoheading_style">COMMAN QUESTION AND ANSWER </h2>
+
+
+                        <div class="row no-gutters line_bottom">
+                            <div class="col">
+
+                                <div class="card-body">
+                                    <!-- question 1-->
+                                    <h5>Q: Where does <span class="q"> </span> practice?</h5>
+
+                                    <!-- answer 1-->
+                                    <!-- <p>
+                                      A:Dr.Yasin Pathan practices at Healthify Care Surgeries - Memnagar, Dr. Ram’s Advanced Surgical
+                                      Hospital - Memnagar.
+                                    </p> -->
+                                    <p id="a1">
+
+                                    </p>
+
+                                </div>
+                                <!--end card body -->
+                            </div><!-- end que1 col -->
+
+
+                        </div>
+                        <!--end main row 1-->
+                        <!-- main row 2 -->
+
+                        <div class="row no-gutters line_bottom">
+                            <div class="col">
+
+                                <div class="card-body">
+                                    <!-- question 2-->
+                                    <h5>Q: How can I take <span class="q"> </span>'s appointment ?</h5>
+
+                                    <!-- answer 2-->
+                                    <p id="a2">
+
+                                    </p>
+
+                                </div>
+                                <!--end card body -->
+                            </div><!-- end que 2 col -->
+
+
+                        </div><!-- end main row 2-->
+                        <!-- main row 3 -->
+
+                        <div class="row no-gutters line_bottom">
+                            <div class="col">
+
+                                <div class="card-body">
+                                    <!-- question 3-->
+                                    <h5>Q: Why do patients visit <span class="q"> </span>?</h5>
+
+                                    <!-- answer 3-->
+                                    <p id="a3">
+
+                                    </p>
+
+                                </div>
+                                <!--end card body -->
+                            </div><!-- end que 3 col -->
+
+                        </div><!-- end main row 3-->
+                        <!-- main row 4 -->
+
+                        <div class="row no-gutters">
+                            <div class="col">
+
+                                <div class="card-body">
+                                    <!-- question 4-->
+                                    <h5>Q: What is <span class="q"> </span>'s education qualification?</h5>
+
+                                    <!-- answer 4-->
+                                    <p id="a4">
+
+                                    </p>
+
+                                </div>
+                                <!--end card body -->
+                            </div><!-- end que 4 col -->
+
+                        </div><!-- end main row 4-->
+
+
+                    </div><!-- end infornation card -->
+                    <!-- End comman quesdtion and answer -->
+                    <!-- specialities and experience -->
+
+
+                    <div class="card mb-4 adv_info main_doc_info" style="max-width:1040px;">
+
+                        <div class="row no-gutters line_bottom">
+                            <div class="col-md-5 ">
+
+                                <div class="card-body">
+                                    <div>
+                                        <h5 style="padding-left:23px;">Specializations</h5>
+                                    </div>
+
+
+                                    <div>
+
+                                        <ul id="specs-list">
+                                        </ul>
+
+
+
+                                    </div>
+
+
+                                </div>
+
+                            </div><!-- end address col -->
+                            <!-- timing col -->
+                            <div class="col-md-7">
+                                <div class="card-body">
+
+                                    <div>
+                                        <h5 style="padding-left:23px;">Awards and Recognition </h5>
+                                    </div>
+
+                                    <div>
+                                        <ul id="awards">
+                                        </ul>
+                                    </div>
+                                    <!-- 2nd schedule sunday -->
+
+                                </div><!-- card body -->
+
+                            </div> <!-- end timing col -->
+
+                        </div><!-- end row 1 -->
+                        <!-- education -->
+                        <div class="row no-gutters line_bottom">
+                            <div class="col-md-5 ">
+
+                                <div class="card-body">
+                                    <div>
+                                        <h5 style="padding-left:23px;">Education</h5>
+                                    </div>
+
+
+                                    <div>
+
+                                        <ul id="edu">
+                                        </ul>
+
+                                    </div>
+
+                                </div>
+
+                            </div><!-- end address col -->
+                            <!-- timing col -->
+                            <div class="col-md-7 ">
+                                <div class="card-body">
+
+
+                                    <div>
+                                        <h5 style="padding-left:23px;">Experience </h5>
+                                    </div>
+
+                                    <div>
+                                        <ul id="exp-li">
+                                        </ul>
+                                    </div>
+
+                                </div><!-- card body -->
+
+                            </div> <!-- end timing col -->
+
+
+
+
+                        </div><!-- end row 2-->
+                        <!-- row 3 -->
+
+                        <div class="row no-gutters ">
+                            <div class="col-md-5">
+
+                                <div class="card-body">
+                                    <div>
+                                        <h5 style="padding-left:23px;">Registrations</h5>
+                                    </div>
+
+                                    <div>
+
+                                        <ul id="reg">
+                                        </ul>
+
+                                    </div>
+
+                                </div>
+
+                            </div><!-- end address col -->
+                            <!-- timing col -->
+                            <div class="col-md-7 ">
+                                <div class="card-body">
+
+
+                                    <div>
+                                        <h5 style="padding-left:23px;">Trainings and Certifications</h5>
+                                    </div>
+
+                                    <div>
+                                        <ul id="training">
+                                        </ul>
+                                    </div>
+
+                                </div><!-- card body -->
+
+                            </div> <!-- end timing col -->
+
+
+
+
+                        </div><!-- end row 3-->
+
+
+
+
+
+
+                    </div> <!-- end col of Specializations and Experience -->
+
+
+
+
+
+                </div>
+                <!--end main 1stcolumn  -->
+
+                <div class="col-md-4 right-card-style">
+                    <div class="card mb-1 card-sticky1" style="min-width:407px; ">
+                        <div class="row no-gutters">
+                            <div class="col">
+
+                                <h1 class="time-heading"><i class="fas fa-stopwatch"></i>Video Consult</h1>
+                                <div class="card-body">
+
+
+
+                                    <!-- clinic information  -->
+                                    <div>
+                                        <div>
+                                            <span> </span>
+
+                                        </div>
+                                    </div>
+                                    <!--end clinic information  -->
+
+                                </div>
+
+
+
+
+
+
+
+
+                                <div id="carouselExampleControl" class="carousel slide" data-ride="false">
+
+                                    <div class="carousel-inner slots_carousel-inner">
+                                        <div class="carousel-item active">
+                                            <div class="card tab-card">
+                                                <div class="card-header tab-card-header" style="padding: 0px 31px;">
+                                                    <ul class="nav nav-tabs card-header-tabs" id="on-tab"
+                                                        role="tablist">
+                                                    </ul>
+                                                </div>
+
+                                                <div class="tab-content" id="on-content">
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div><!-- endcarousel-inner -->
+
+
+                                    <a class="carousel-control-prev prev-date" role="button" data-slide="prev">
+                                        <img src="../../images/home/icons8-back-30.png" style="height:34%;">
+                                    </a>
+                                    <a class="carousel-control-next next-date" role="button" data-slide="next">
+                                        <img src="../../images/home/icons8-forward-30.png" style="height:34%;">
+                                    </a>
+
+                                </div>
+
+                            </div>
+                            <!--end card body -->
+
+                        </div>
+                        <!--end  col  -->
+
+                    </div><!-- end card  -->
+                    <!-- 2nd card -->
+
+                    <div class="card mb-1 card-sticky2 mt-4" style="min-width:407px; ">
+                        <div class="row no-gutters">
+                            <div class="col">
+
+                                <h1 class="time-heading"><i class="fas fa-stopwatch"></i> PICK A TIME SLOT</h1>
+                                <div class="card-body">
+
+
+
+                                    <!-- clinic information  -->
+                                    <div>
+                                        <div>
+                                            <span style="font-size:0.9rem; margin-top:50px">
+                                                <i class="far fa-hospital"></i> Dr. Ram’s Advanced Surgical
+                                                Hospital
+                                            </span>
+                                        </div>
+
+                                        <div class="mt-2">
+                                            <span style="font-size:0.9rem;">
+                                                ₹
+                                                <!-- -->99
+                                            </span>
+                                            <span>Verified details</span>
+                                        </div>
+                                        <div class="mt-2">
+                                            <span style="font-size:0.9rem;">
+                                                <i class="fas fa-map-marker-alt" aria-hidden="true"></i> Memnagar,
+                                                Ahmedabad
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <!--end clinic information  -->
+
+                                </div>
+                                <div>
+
+                                </div>
+
+
+
+                                <div id="carouselExampleControls" class="carousel slide" data-ride="false">
+                                    <div class="carousel-inner slots_carousel-inner">
+                                        <div class="carousel-item active">
+
+                                            <div class="card tab-card">
+                                                <div class="card-header tab-card-header" style="padding: 0px 31px;">
+                                                    <ul class="nav nav-tabs card-header-tabs " id="off-tab"
+                                                        role="tablist">
+                                                    </ul>
+                                                </div>
+
+                                                <div class="tab-content" id="off-content">
+
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+
+                                    </div><!-- endcarousel-inner -->
+
+
+
+                                    <a class="carousel-control-prev prev-date" role="button" data-slide="prev">
+                                        <img src="../../images/home/icons8-back-30.png" style="height:34%;">
+                                    </a>
+                                    <a class="carousel-control-next next-date" role="button" data-slide="next">
+                                        <img src="../../images/home/icons8-forward-30.png" style="height:34%;">
+                                    </a>
+
+
+                                </div>
+
+
+
+
+
+                            </div>
+                            <!--end card body -->
+
+
+
+
+
+                        </div>
+                        <!--end  col  -->
+
+                    </div><!-- end card  -->
+                    <!--  -->
+
+
+
+
+                </div>
+                <!-- end col card -->
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- <section class="spacebetween tab-menu">
+        <div class="container">
+            <div class="row">
+
+                <div class="tab"></div>
+                <h3></h3>
+                <p></p>
+            </div>
+
+        </div>
+
+    </section> -->
+    <!-- =======  footer ======= -->
+    <footer class="spacebetween footer-style">
+        <div class="container pt-5 pb-5">
+            <div class="row">
+
+                <div class="col-md-5 footer-logo-style">
+                    <a class="footer-logo" href="../../Index.html">HEALTHIFY</a><br>
+                    <hr class="accent-2 mb-2  mt-1 d-inline-block mx-auto" style="width:120px;background-color:white;">
+                    <p>
+                        <i class="fas fa-angle-double-right mr-1"></i>Get the right care, right away. Helping you, <br>
+                        wherever you are
+                    </p>
+                </div>
+
+                <div class="col-md-3 our-service-style">
+
+                    <h5>Our services</h5>
+
+                    <hr class="accent-2 mb-3 mt-1 d-inline-block mx-auto" style="width:88px;background-color:white;">
+                    <ul>
+                        <li><a href="../find_doctor.html"><i class="fas fa-caret-right mr-2"></i>Find Doctor</a></li>
+                        <li><a href="../video_consult.html"><i class="fas fa-caret-right mr-2"></i>VideoConsult</a></li>
+                        <li><a class="nav-link" href="../about-us.html"><i class="fas fa-caret-right mr-2"></i>About Us</a></li>
+                        <li><a href="#"><i class="fas fa-caret-right mr-2"></i>Data Security</a></li>
+                    </ul>
+
+                </div>
+                <div class="col-md-4 get-in-touch-style">
+                    <h5>Get in touch</h5>
+                    <hr class="accent-2 mb-3 mt-1 d-inline-block mx-auto" style="width:88px;background-color:white;">
+                    <ul>
+                        <li>
+                            <i class="fas fa-map-marker-alt mr-2" style="font-size: 1rem;"></i>C-201,jaldeep
+                            icon,makarba,Ahmedabad.
+                        </li>
+                        <li><i class="fas fa-phone-alt mr-2" style="font-size: 1rem;"></i>+91 9426140922</li>
+                        <li>
+                            <i class="fas fa-envelope-open-text mr-2"
+                               style="font-size: 1rem;"></i>support@Healthify.gmail.com
+                        </li>
+                    </ul>
+
+                    <button>Contact Us</button>
+
+                </div>
+
+            </div><!-- end row -->
+        </div> <!-- end container -->
+    </footer>
+
+
+
+    <!-- bootstrap js link -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+            integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+            integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+
+
+
+
+
+
+    <script src="../../js/doc-det_js/dd-doctor_details.js"></script>
+    <script src="../../js/logged_in_user.js"></script>
+    <script src="../../js/search.js"></script>
+
+</body>
+
+</html>

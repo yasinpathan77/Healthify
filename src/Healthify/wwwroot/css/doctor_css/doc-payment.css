@@ -1,0 +1,188 @@
+﻿/* css for upload a file button and background white card*/
+
+/* no record found css */
+.no-record-found-imag {
+    width: 100%;
+    margin-top: 2%;
+    height: 457px;
+    padding-left: 35px;
+    background-color: white;
+    border-radius: 2px;
+    /* position: fixed; */
+}
+
+    .no-record-found-imag .img-set {
+        padding-top: 11%;
+    }
+
+        .no-record-found-imag .img-set p {
+            text-align: center;
+            padding-top: 1%;
+        }
+
+
+.box-style-payment {
+    margin-top: 2%;
+}
+
+.box-style .main-heading h5 {
+    color: black;
+    font-size: 1.2rem;
+    padding: 3%;
+    font-weight: 600;
+}
+
+.box-style-up .btn-style {
+    color: white;
+    font-weight: 600;
+    border: 1px solid #14bef0;
+    background-color: #14bef0;
+    padding: 5px 27px;
+    display: inline-block;
+    margin-top: 8%;
+    margin-left: 8px;
+    border-radius: 5px;
+    margin-bottom: 18%;
+}
+
+    .box-style-up .btn-style:hover {
+        color: white;
+        border: 1px solid #14bef0;
+        background-color: #14bef0;
+    }
+
+/* End upload a file */
+
+
+
+/* upload record below pdf show css */
+
+.box-style {
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 2%;
+}
+
+    .box-style:hover {
+        box-shadow: 1px 1px 7px #999999;
+    }
+
+
+.date-box-style {
+    width: 50px;
+    margin-top: 25%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: #e6e6e6;
+}
+
+.patient-payment-details {
+    padding-left: 8%;
+}
+
+.date-box-style h5 {
+    padding-top: 12%;
+    font-size: 1.8rem;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+.date-box-style span {
+    font-weight: 700;
+    color: darkgray;
+    font-size: 1.3rem;
+}
+
+.patient-payment-details .medical-test-name, .record-details {
+    margin-top: 12px;
+}
+
+    .patient-payment-details .medical-test-name .pay-amount {
+        word-wrap: break-word;
+        font-size: 1rem;
+        letter-spacing: 1px;
+        font-weight: 550;
+        color: black;
+    }
+
+.patient-payment-details .pay-app-time {
+    margin-top: 3px;
+    color: #157d00;
+    font-size: 0.8rem;
+    line-height: 18px;
+    font-weight: 490;
+}
+
+.patient-payment-details .pay-doc-name {
+    margin-top: 3px;
+    color: #787887;
+    font-size: 0.9 rem;
+    line-height: 23px;
+}
+/* .patient-payment-details.app-place{
+    color: #787887;
+    font-size: 0.9rem;
+    line-height:27px;
+    margin-bottom:3%;
+  } */
+
+
+
+/* .cancelled-tag{
+  
+    background-color: rgba(255,44,0,.1);
+      color: #ff2c00;
+      padding:3px 9px;
+      border-radius: 3px;
+  }
+  */
+
+.Completed-tag {
+    background-color: rgb(49, 216, 49);
+    color: white;
+    padding: 3px 15px;
+    border-radius: 3px;
+}
+
+.Failed-tag {
+    background-color: rgb(226, 51, 51);
+    color: white;
+    padding: 3px 23px;
+    border-radius: 3px;
+}
+
+
+/* record style */
+
+.record-details {
+    margin-top: 33px;
+}
+
+    .record-details p {
+        word-wrap: break-word;
+        font: size 1.5rem;
+        ;
+        font-weight: 500;
+        color: black;
+    }
+
+
+.btn-style {
+    color: #14bef0;
+    border: 1px solid #14bef0;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 7px 27px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 8px;
+    margin-right: 43px;
+    margin-bottom: 30px;
+}
+
+    .btn-style:hover {
+        color: white;
+        border: 1px solid #14bef0;
+        background-color: #14bef0;
+    }

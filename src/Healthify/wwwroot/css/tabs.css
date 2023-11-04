@@ -1,0 +1,39 @@
+﻿a {
+    text-decoration: none;
+}
+
+.tabList #Log a:hover, .tabList #Reg a:hover {
+    text-decoration: none;
+}
+
+.Tabs {
+    text-align: center;
+    /* border-bottom: 1px solid rgba(0,0,0,0.15); */
+}
+
+.box-mar {
+    margin-top: 242px;
+}
+
+.tabList {
+    list-style-type: none;
+    display: inline-flex;
+    margin: 10px;
+}
+
+.Tabs ul li {
+    padding: 0 30px;
+}
+
+.tab-link {
+    font-size: 16px;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    color: #28328c;
+}
+
+#itemLogin, #itemRegister {
+    border-bottom: 4px solid transparent;
+    color: #28328c;
+}

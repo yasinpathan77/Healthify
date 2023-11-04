@@ -1,0 +1,38 @@
+﻿li > a#itemLogin {
+    border-bottom: 3px solid transparent;
+    font-weight: normal;
+}
+
+    li > a#itemLogin:hover {
+        text-decoration: underline;
+    }
+
+.email-id-otp {
+    display: block;
+    padding-top: 8px;
+    font-weight: 600;
+    font-size: 19px;
+    color: rgba(0,0,0,0.6);
+}
+
+.form-link-div {
+    padding-bottom: 5%;
+}
+
+#resend {
+    font-size: 13.8px;
+    color: #28328c;
+    font-weight: 450;
+    cursor: pointer;
+}
+
+    #resend:hover {
+        text-decoration: underline;
+    }
+
+#timer {
+    font-size: 13.8px;
+    color: #28328c;
+    font-weight: 450;
+    margin-left: 3px;
+}

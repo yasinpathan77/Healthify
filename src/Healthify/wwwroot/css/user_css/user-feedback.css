@@ -1,0 +1,117 @@
+﻿
+
+/* no record found css */
+.no-record-found-imag {
+    width: 100%;
+    margin-top: 2%;
+    height: 457px;
+    padding-left: 35px;
+    background-color: white;
+    border-radius: 2px;
+    /* position: fixed; */
+}
+
+    .no-record-found-imag .img-set {
+        padding-top: 11%;
+    }
+
+        .no-record-found-imag .img-set p {
+            text-align: center;
+            padding-top: 1%;
+        }
+
+
+.box-style-feedback {
+    margin-top: 2%;
+}
+
+.box-style .main-heading h5 {
+    color: black;
+    font-size: 1.2rem;
+    padding: 3%;
+    font-weight: 600;
+}
+
+
+/* feedback details css */
+
+.box-style {
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 2%;
+}
+
+    .box-style:hover {
+        box-shadow: 1px 1px 7px #999999;
+    }
+
+
+.date-box-style {
+    width: 50px;
+    margin-top: 25%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: #e6e6e6;
+}
+
+
+
+    .date-box-style h5 {
+        padding-top: 12%;
+        font-size: 1.8rem;
+        line-height: 20px;
+        font-weight: 700;
+    }
+
+    .date-box-style span {
+        font-weight: 700;
+        color: darkgray;
+        font-size: 1.3rem;
+    }
+
+.feedback-details {
+    padding-left: 8%;
+}
+
+    .feedback-details .feedback-star, .record-details {
+        margin-top: 12px;
+    }
+
+        .feedback-details .feedback-star .fd-main-star {
+            word-wrap: break-word;
+            font-size: 1rem;
+            letter-spacing: 1px;
+            font-weight: 550;
+            color: black;
+        }
+
+    .feedback-details .feedback-time {
+        margin-top: 3px;
+        color: #157d00;
+        font-size: 0.8rem;
+        line-height: 18px;
+        font-weight: 490;
+    }
+
+    .feedback-details .feedback-doc-name {
+        margin-top: 3px;
+        color: #787887;
+        font-size: 0.9 rem;
+        line-height: 23px;
+    }
+
+
+.Completed-tag {
+    background-color: rgb(49, 216, 49);
+    color: white;
+    padding: 3px 15px;
+    border-radius: 3px;
+}
+
+.Failed-tag {
+    background-color: rgb(226, 51, 51);
+    color: white;
+    padding: 3px 23px;
+    border-radius: 3px;
+}

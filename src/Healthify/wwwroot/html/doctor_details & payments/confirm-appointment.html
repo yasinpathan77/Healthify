@@ -1,0 +1,234 @@
+﻿<html>
+
+<head>
+    <link rel="icon" type="image/x-icon" href="../../images/favicon.png">
+    <title>Book a Appointment</title>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap main link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- css link -->
+    <link rel="stylesheet" href="../../css/nav_fotter.css">
+    <link rel="stylesheet" href="../../css/doc-det_css/dd-confirm-appointment.css">
+    <!--Google icon -->
+    <script src="https://kit.fontawesome.com/849b321cb3.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
+            <div class="container my-2">
+                <a class="navbar-brand logo" href="../../Index.html">HEALTHIFY</a>
+                <form action="#" method="POST">
+                    <div class="input-group input-navbar">
+                        <div class="input-group-prepend">
+                            <span>
+                                <ion-icon class="icon-col" name="search-outline"></ion-icon>
+                            </span>
+                            <input class="form-control search-width" type="search" placeholder="Search Doctors & Specialists"
+                                   aria-label="Search" id="search-bar">
+
+                            <ul class="searchresult" id="searchr-result1">
+                            </ul>
+                        </div>
+                    </div>
+                </form>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto d-flex align-items-center pd-760">
+                        <li class="nav-item pr-sm-1 ">
+                            <a class="nav-link" href="../find_doctor.html">Find Doctor</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../video_consult.html">Video Consult</a>
+                        </li>
+                        <!-- <li class="nav-item"><a class="nav-link active" href="steps-to-doc.html">Doctor Services</a></li> -->
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link"><span>Doctor Services</span></a>
+                            <ul>
+                                <li><a href="../steps-to-doc.html">Registration for Doctor</a></li>
+                                <li><a href="../doc-features.html">Doctor Facilities</a></li>
+                                <li><a href="../html/doctor/upcoming_app.html">Doctor Services</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="../about-us.html">About Us</a></li>
+
+
+
+                        <li>
+                            <div class="dropdown user-style">
+
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- patient information -->
+
+    <section class="spacebetween offline-online-details">
+        <div class="container">
+
+            <div class="row row-col-2 ">
+                <div class="col-md-5 col-lg-5">
+
+                    <div class="card left-side-info" style="width:440px;">
+                        <div class="card-body">
+
+                            <!-- heading -->
+                            <div class="row line_bottom">
+                                <div class="col mb-2">
+                                    <h1 id="mode"><i class="fas fa-clinic-medical"></i>  In-clinic Appointment</h1>
+
+
+                                </div>
+
+                            </div>
+                            <!-- 1st row end -->
+                            <!-- date and time information -->
+                            <div class="row line_bottom">
+                                <div class="col-md-8">
+                                    <h5 id="date"><i class="far fa-calendar-alt"></i>    On Jan 26, 2022</h5>
+
+
+                                </div>
+                                <div class="col-md-4">
+                                    <h5 id="time"><i class="far fa-clock"></i>At 5:00 PM</h5>
+
+                                </div>
+
+                            </div>
+
+                            <!-- doctor img and theirt info -->
+                            <div class="row line_bottom">
+
+                                <div class="col-md-4">
+                                    <img id="doc-img" src="../../images/doc-det/doctors-1.jpg" class="doctor-img-style" alt="Doctor image">
+
+                                </div>
+                                <div class="col-md-8">
+
+                                    <!-- main doctor name -->
+                                    <div>
+                                        <h5 id="doc-name">Dr.Yasin pathan</h5>
+                                    </div>
+
+                                    <!-- degree & qualification -->
+                                    <div class="">
+                                        <span id="speciality">MBBS, MS - General Surgery</span>
+                                    </div>
+
+                                    <!-- specialits -->
+                                    <div>
+                                        <span id="specialization">General Surgeon</span>
+                                    </div>
+
+
+
+
+
+                                </div>
+                            </div>
+                            <!-- end 2 row -->
+                            <!-- hospitaal name -->
+                            <div class="row ">
+
+                                <div class="col-md-4">
+                                    <img id="cl-img" src="../../images/doc-det/hospital (3).png" class="hospital-img-style" alt="Doctor image">
+
+                                </div>
+                                <div class="col-md-8">
+
+                                    <!-- main doctor name -->
+                                    <div>
+                                        <h5 id="cl-name">Dr. Ram’s Advanced Surgical Hospital</h5>
+                                    </div>
+
+                                    <!-- degree & qualification -->
+                                    <div class="">
+                                        <span id="cl-addr">Naina Eye Hospital, Near Gurukul road, Memnagar, Ahmedabad, Gujarat,  Ahmedabad</span>
+                                    </div>
+
+
+
+
+
+
+                                </div>
+
+
+                            </div>
+
+
+
+
+
+
+
+                        </div><!-- End card body-->
+                    </div><!-- end card -->
+
+
+                </div><!-- left side card col -->
+
+
+                <div class="col-md-6 col-lg-6">
+
+
+                    <div class="right-side-info" style="max-width:1040px;">
+
+                    </div><!-- end right side  -->
+
+                </div>
+
+
+
+
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+        <!-- right side  -->
+    </section>
+
+
+    <section class="spacebetween">
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+
+    <script type="module" src="../../js/user_js/app-details.js"></script>
+    <script src="../../js/logged_in_user.js"></script>
+    <script src="../../js/search.js"></script>
+
+</body>
+</html>
+

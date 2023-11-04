@@ -1,0 +1,96 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <DockerComposeProjectPath>../docker-compose.dcproj</DockerComposeProjectPath>
+    <UserSecretsId>7d9941ba-a1cf-4474-9852-de1276e6e57e</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Servies\" />
+    <None Remove="Microsoft.EntityFrameworkCore" />
+    <None Remove="Microsoft.EntityFrameworkCore.Relational" />
+    <None Remove="Dbcontext\" />
+    <None Remove="MySql.Data.EntityFrameworkCore" />
+    <None Remove="Microsoft.EntityFrameworkCore.Tools" />
+    <None Remove="Microsoft.EntityFrameworkCore.Design" />
+    <None Remove="MySql.Data" />
+    <None Remove="Models\" />
+    <None Remove="AutoMapper.Extensions.Microsoft.DependencyInjection" />
+    <None Remove="Helpers\" />
+    <None Remove="Microsoft.AspNetCore.Identity.EntityFrameworkCore" />
+    <None Remove="Microsoft.AspNetCore.Authentication.JwtBearer" />
+    <None Remove="Microsoft.AspNetCore.Authentication.Google" />
+    <None Remove="OutPutModel\" />
+    <None Remove="Microsoft.VisualStudio.Web.CodeGeneration.Design" />
+    <None Remove="Microsoft.AspNetCore.JsonPatch" />
+    <None Remove="Microsoft.AspNetCore.Mvc.NewtonsoftJson" />
+    <None Remove="Razorpay" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
+    <Folder Include="Database\" />
+    <Folder Include="Models\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="wwwroot\" />
+    <Folder Include="wwwroot\Profile\" />
+    <Folder Include="wwwroot\DoctorCertificate\" />
+    <Folder Include="OutPutModel\" />
+    <Folder Include="wwwroot\html\" />
+    <Folder Include="wwwroot\js\" />
+    <Folder Include="wwwroot\css\" />
+    <Folder Include="wwwroot\css\doc-det_css\" />
+    <Folder Include="wwwroot\css\doctor_css\" />
+    <Folder Include="wwwroot\css\user_css\" />
+    <Folder Include="wwwroot\html\doctor\" />
+    <Folder Include="wwwroot\html\doctor_details &amp; payments\" />
+    <Folder Include="wwwroot\html\user panel\" />
+    <Folder Include="wwwroot\js\doc-det_js\" />
+    <Folder Include="wwwroot\js\doctor_js\" />
+    <Folder Include="wwwroot\js\user_js\" />
+    <Folder Include="wwwroot\MedicalRecords\" />
+    <Folder Include="wwwroot\MedicalRecords\94d26731-32d0-4835-8d49-b16a082c9883\" />
+    <Folder Include="wwwroot\html\Admin\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.1">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.1">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.22" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.14" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="5.0.14" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.JsonPatch" Version="5.0.14" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="5.0.14" />
+    <PackageReference Include="Razorpay" Version="3.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\" />
+    <Content Remove="wwwroot\Profile\" />
+    <Content Remove="wwwroot\DoctorCertificate\" />
+    <Content Remove="wwwroot\html\" />
+    <Content Remove="wwwroot\js\" />
+    <Content Remove="wwwroot\css\" />
+    <Content Remove="wwwroot\css\doc-det_css\" />
+    <Content Remove="wwwroot\css\doctor_css\" />
+    <Content Remove="wwwroot\css\user_css\" />
+    <Content Remove="wwwroot\html\doctor\" />
+    <Content Remove="wwwroot\html\doctor_details &amp; payments\" />
+    <Content Remove="wwwroot\html\user panel\" />
+    <Content Remove="wwwroot\js\doc-det_js\" />
+    <Content Remove="wwwroot\js\doctor_js\" />
+    <Content Remove="wwwroot\js\user_js\" />
+    <Content Remove="wwwroot\MedicalRecords\" />
+    <Content Remove="wwwroot\MedicalRecords\94d26731-32d0-4835-8d49-b16a082c9883\" />
+    <Content Remove="wwwroot\html\Admin\" />
+  </ItemGroup>
+</Project>

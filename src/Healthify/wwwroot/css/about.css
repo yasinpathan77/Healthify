@@ -1,0 +1,114 @@
+﻿* {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.heads {
+    font-size: 2rem;
+    font-weight: 500;
+    color: rgba(0,0,0,0.8);
+}
+
+.content {
+    line-height: 20px;
+    font-weight: 400;
+    font-size: 13px;
+    padding-top: 4%;
+}
+
+#title {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#title-heading {
+    font-size: 3.5rem;
+    color: rgba(0,0,139,0.8)
+}
+
+.sub-title {
+    padding: 15px;
+    max-width: 80%;
+    display: block;
+    margin: 2% auto;
+    text-align: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+
+#image {
+    display: block;
+    width: 100%;
+    background: url(../images/health7.png) 100% 100% no-repeat;
+    background-size: cover;
+    background-position: top;
+    /* background-color: rgba(211, 211, 211, 0.5); */
+    padding: 120px 50px;
+    height: auto;
+    /* border: 2px solid black; */
+}
+
+.habit {
+    width: 50%;
+    max-width: 1000px;
+    /* border: 2px solid black; */
+    float: none;
+    vertical-align: baseline;
+    text-align: left;
+}
+
+#offering {
+    padding: 50px;
+}
+
+.row {
+    margin: 20px auto;
+    max-width: 1000px;
+    height: auto;
+    /* border: 2px solid black; */
+    padding: 10px 20px;
+}
+
+.cell {
+    display: table-cell;
+    padding: 0 5px;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.off-icons {
+    margin: 0 auto;
+    justify-content: center;
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+.icons {
+    text-align: center;
+}
+
+.icon {
+    width: 75px;
+}
+
+.text {
+    font-size: 14px;
+}
+
+.sub-text {
+    font-size: 11px;
+}
+
+#each-head {
+    background-color: rgba(211,211,211,0.5);
+    padding: 20px;
+    text-align: center;
+}
+
+.patient-images {
+    width: 200px;
+}
+
+.text {
+    padding: 5%;
+}

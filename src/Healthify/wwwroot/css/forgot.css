@@ -1,0 +1,20 @@
+﻿li > a#itemLogin {
+    border-bottom: 3px solid transparent;
+    font-weight: normal;
+}
+
+    li > a#itemLogin:hover {
+        text-decoration: underline;
+    }
+
+.instructions {
+    font-size: 13.9px;
+    color: rgba(0,0,0,0.8);
+    padding: 15px 20px;
+}
+
+.form-box {
+    display: block;
+    margin: 5% auto;
+    float: none;
+}

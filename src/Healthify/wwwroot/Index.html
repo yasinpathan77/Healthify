@@ -1,0 +1,540 @@
+﻿<html>
+
+<head>
+
+    <title>INDEX</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <!-- Bootstrap main link -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- css link -->
+    <link rel="stylesheet" href="css/home-style.css">
+    <link rel="stylesheet" href="css/nav_fotter.css">
+
+    <!--Google icon -->
+    <script src="https://kit.fontawesome.com/849b321cb3.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
+            <div class="container my-2">
+                <a class="navbar-brand logo" href="Index.html">HEALTHIFY</a>
+                <form action="#" method="POST" id="search-form">
+                    <div class="input-group input-navbar">
+                        <div class="input-group-prepend">
+                            <span>
+                                <ion-icon class="icon-col" name="search-outline"></ion-icon>
+                            </span>
+
+                            <input class="form-control search-width" type="search" placeholder="Search Doctors & Specialists"
+                                   aria-label="Search" id="search-bar">
+
+                            <ul class="searchresult" id="searchr-result1">
+                                
+
+                            </ul>
+
+                        </div>
+                    </div>
+                </form>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto d-flex align-items-center pd-760">
+                        <li class="nav-item pr-sm-1 ">
+                            <a class="nav-link" href="html/find_doctor.html">Find Doctor</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="html/video_consult.html">Video Consult</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link"><span>Doctor Services</span></a>
+                            <ul>
+                                <li><a href="html/steps-to-doc.html">Registration for Doctor</a></li>
+                                <li><a href="html/doc-features.html">Doctor Facilities</a></li>
+                                <li><a href="html/doctor/upcoming_app.html">Doctor Services</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="html/about-us.html">About Us</a></li>
+ 
+                        <li>
+                            <div class="dropdown user-style">
+
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <!-- ======= main image ======= -->
+        <section class="hero">
+            <div class="carousel slide carousel-fade">
+                <div class="carousel-inner" role="listbox">
+                    <!-- Slide 1 -->
+                    <div class="carousel-item  active img-fluid" style="background-image: url(images/home/qwe1.jpg);">
+
+                        <div class="carousel-container">
+                            <div class="container">
+                                <h2>Welcome to <span>Healthify</span></h2>
+                                <p>
+                                    Our mission is to make quality healthcare accessible at convenient time. We offer
+                                    comprehensive medical directory [prescription and diagnostic], online and offline
+                                    consultation. Our aim goes deep with creating connection, trust and transparency.
+                                    Creating an e-consultation website.
+                                </p>
+                                <!-- <a href="#about" class="btn-get-started ">Read More</a> -->
+                                <button class="btn-style" onclick="location.href='html/about-us.html';">Read more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section><!-- End Hero -->
+        <!-- ======= consult top doctor ======= -->
+
+        <section class="spacebetween consult_doctor">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col col-sm-10">
+                        <h4 class="heading_style">Consult top doctors online for any health concern</h4>
+                        <p>Private online consultations with verified doctors in all specialists</p>
+                    </div>
+
+                    <div class="col col-sm-2">
+                        <button type="button" onclick="window.location.href='html/video_consult.html'" class="btn_small justify-content-end">View All Specialities</button>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <!--image 1-->
+                    <div class="col">
+                        <div class="card consult_card">
+                            <img src="images/home/specialities/period.webp" class="card-img-top" alt="...">
+
+                            <div class="card-body">
+                                <h5 class="card-title consult_name">Pregnancy Issue</h5>
+                                <!--<a href="#" class="card-link consult_link">Consult now</a>-->
+                            </div>
+                            <a href="#" class="card-link consult_link">Consult now</a>
+                        </div>
+                    </div>
+                    <!--image  2-->
+                    <div class="col">
+                        <div class="card consult_card">
+                            <img src="images/home/specialities/Acne.webp" class="card-img-top" alt="...">
+
+                            <div class="card-body">
+                                <h5 class="card-title consult_name">Acne or Skin Issue</h5>
+
+                            </div>
+                            <a href="#" class="card-link consult_link">Consult now</a>
+                        </div>
+                    </div>
+
+
+
+
+                    <!--image 3-->
+                    <div class="col">
+                        <div class="card consult_card">
+                            <img src="images/home/specialities/top-speciality-sexology.svg" class="card-img-top" alt="...">
+                            <div class="card-body  ">
+                                <h5 class="card-title consult_name" style="text-decoration: none;">Personal Issue</h5>
+
+                            </div>
+                            <a href="#" class="card-link consult_link">Consult now</a>
+                        </div>
+                    </div>
+
+                    <!--image 4-->
+                    <div class="col">
+                        <div class="card consult_card">
+                            <img src="images/home/specialities/coughing.webp" class="card-img-top" alt="...">
+                            <div class="card-body  ">
+                                <h5 class="card-title consult_name">Cough or Fever</h5>
+                            </div>
+                            <a href="#" class="card-link consult_link">Consult now</a>
+                        </div>
+                    </div>
+
+                    <!--image 5-->
+                    <div class="col">
+                        <div class="card consult_card">
+                            <img src="images/home/specialities/top-speciality-pediatric.svg" class="card-img-top " alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title consult_name ">Child not feeling well </h5>
+
+                            </div>
+                            <a href="#" class="card-link consult_link">Consult now</a>
+                        </div>
+                    </div>
+
+                    <!--image 6 -->
+                    <div class="col">
+                        <div class="card consult_card">
+                            <img src="images/home/specialities/12-mental-wellness.webp" class="card-img-top " alt="...">
+                            <div class="card-body  ">
+                                <h5 class="card-title consult_name">Depression or Anxiety</h5>
+
+                            </div>
+                            <a href="#" class="card-link consult_link">Consult now</a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section><!-- end consult top doctor-->
+        <!-- =======  Book an appointment ======= -->
+
+        <section class="spacebetween book_appointment">
+            <div class="container">
+                <div class="row">
+                    <div>
+                        <h4 class="heading_style">Book an appointment for an in-clinic consultation</h4>
+                        <p>Find experienced doctors across all specialties</p>
+                    </div>
+                </div>
+
+                <div class="row">
+
+
+                    <div id="carouselExampleControls" class="carousel slide bk-style" data-ride="false">
+
+
+                        <a class="box-left-arrow carousel-control-prev book_carousel-control-prev slick-prev"
+                           href="#carouselExampleControls" role="button" data-slide="prev" data-interval="9000" style="left: -30px">
+                            <img src="images/home/icons8-back-30.png" style="height: 21;">
+                        </a>
+
+                        <div class="carousel-inner book_carousel-inner">
+
+                            <div class="carousel-item active">
+
+                                <div class="cards-wrapper book_cards-wrapper">
+
+                                    <div class="card book_card">
+                                        <a href="#">
+                                            <img src="images/home/dentist.PNG" class="card-img-top " alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title"> Dentist </h5>
+                                                <p class="card-text">Teething troubles? Schedule a dental checkup......</p>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="card d-none d-md-block book_card">
+                                        <a href="#">
+                                            <img src="images/home/gynecologist.PNG" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Gynaecologist</h5>
+                                                <p class="card-text">Explore for women’s health, pregnancy and infertility treatments</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="card d-none d-md-block book_card">
+                                        <a href="#">
+                                            <img src="images/home/dietitian.PNG" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Dietitian</h5>
+                                                <p class="card-text">Get guidance on eating right, weight management and sports nutrition</p>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="card book_card">
+                                        <a href="#">
+                                            <img src="images/home/physiotherapist.PNG" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Physiotherapist</h5>
+                                                <p class="card-text">Pulled a muscle? Get it treated by a trained physiotherapist</p>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- 2 -->
+                            <div class="carousel-item">
+                                <div class="cards-wrapper book_cards-wrapper">
+
+                                    <div class="card d-none d-md-block book_card">
+                                        <a href="#">
+                                            <img src="images/home/general surgeon.PNG" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">General Physician</h5>
+                                                <p class="card-text">Need to get operated? Find the right surgeon.</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="card d-none d-md-block book_card">
+
+                                        <a href="#">
+                                            <img src="images/home/pendiatrician.PNG" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Pediatrician</h5>
+                                                <p class="card-text">Child Specialists and Doctors for Infant</p>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="card d-none d-md-block book_card">
+                                        <a href="#">
+                                            <img src="images/home/orthopedist.PNG" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Orthopedist</h5>
+                                                <p class="card-text">For Bone and Joints issues, spinal injuries and more</p>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="card book_card">
+                                        <a href="#">
+                                            <img src="images/home/general physician.PNG" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">General Physician</h5>
+                                                <p class="card-text">For Bone and Joints issues, spinal injuries and more</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div><!-- endcarousel-inner -->
+
+                        <a class="box-left-arrow carousel-control-next book_carousel-control-next slick-next"
+                           href="#carouselExampleControls" role="button" data-slide="next" style="right:-13;">
+                            <img src="images/home/icons8-forward-30.png" style="height: 21;">
+                        </a>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+        </section><!-- end book appointment -->
+        <!-- =======   Read top articles ======= -->
+
+        <section class="spacebetween read_article" style="background-color:  #f6f9fd;">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col">
+                        <div class="card read_card">
+
+                            <div class="card-body">
+                                <h5 class="card-title heading_style">Advice From Experts</h5>
+                                <p class="card-text mt-4">
+                                    Health articles that keep you informed about good health practices and achieve
+                                    your goals.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card read_imgcard max-width">
+                            <img src=" images/home/coronavirus.PNG" class="card-img-top" alt="...">
+
+                            <div class="card-body">
+                                <h7 class="card-title">CORONAVIRUS</h7>
+                                <p class="card-text">12 Coronavirus Myths and Facts That You Should Be Aware of</p>
+                                <p>
+                                    <i class="fas fa-user-md"></i>
+                                    Dr Tirth gajjar
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col">
+                        <div class="card read_imgcard max-width">
+                            <img src="images/home/vitaminus.PNG" class="card-img-top" alt="...">
+
+                            <div class="card-body">
+                                <h7 class="card-title ">VITAMINS</h7>
+                                <p class="card-text">Eating Rights to Bulid Immunity Against Cold and Viral Infections</p>
+                                <p>
+                                    <i class="fas fa-user-md" style="max-width: 100;;"></i>
+
+                                    Dr Tirth gajjar
+                                </p>
+                            </div>
+                        </div>
+                    </div><!-- col -->
+
+                </div>
+            </div><!-- container -->
+
+        </section><!-- End Read Articles -->
+        <!-- =======  What our user have to say ======= -->
+
+        <section class="spacebetween user_say">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col">
+                        <h4 class="heading_style" style="text-align:center;">What our users have to say</h4>
+
+                    </div>
+
+                </div>
+                <!--row1  -->
+
+                <div class="row slider-area">
+
+                    <div id="carouselExampleIndicators" data-interval="2000" class="carousel slide" data-ride="carousel">
+
+                        <ol class="carousel-indicators slide_carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+
+                        <div class="carousel-inner">
+                            <!-- img1 -->
+                            <div class="carousel-item active">
+                                <div class="img-area">
+                                    <img src="images/home/patient/testimonials-1.jpg" alt="First slide">
+                                </div>
+
+                                <div class="carousel-caption user_caption">
+                                    <h5>Tirth Gajjar </h5>
+                                    <p>
+                                        Very good app. Well thought out about booking/rescheduling/canceling an appointment. Also, Doctor's
+                                        feedback mechanism is good and describes all the basics in a good way
+                                    </p>
+                                </div>
+
+                            </div>
+
+                            <!-- img2 -->
+                            <div class="carousel-item">
+                                <div class="img-area">
+                                    <img src="images/home/patient/testimonials-2.jpg" alt="Second slide">
+                                </div>
+
+                                <div class="carousel-caption user_caption">
+                                    <h5>Dirgh Pathan</h5>
+                                    <p>
+                                        Very helpful. Far easier than doing same things on computer. Allows quick and easy search with speedy
+                                        booking. Even maintains history of doctors visited.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- img3 -->
+                            <div class="carousel-item">
+                                <div class="img-area">
+                                    <img src="images/home/patient/testimonials-3.jpg" alt="Third slide">
+                                </div>
+
+                                <div class="carousel-caption user_caption">
+                                    <h5>Anuj Solanki</h5>
+                                    <p>
+                                        Very helpful. Far easier than doing same things on computer. Allows quick and easy search with speedy
+                                        booking. Even maintains history of doctors visited.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end carousel-inner -->
+
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <img src="images/home/icons8-back-30.png" style="height: 25;">
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <img src="images/home/icons8-forward-30.png" style="height:25;">
+                        </a>
+
+
+
+                    </div>
+
+                </div><!-- Row -->
+            </div>
+        </section><!--  end What our usr have to say -->
+
+    </main>
+
+    <!-- =======  footer ======= -->
+    <footer class="spacebetween footer-style">
+        <div class="container pt-5 pb-5">
+            <div class="row">
+
+                <div class="col-md-5 footer-logo-style">
+                    <a class="footer-logo" href="home.html">HEALTHIFY</a><br>
+                    <hr class="accent-2 mb-2  mt-1 d-inline-block mx-auto" style="width:120px;background-color:white;">
+                    <p><i class="fas fa-angle-double-right mr-1"></i>Get the right care, right away. Helping you, <br> wherever you are </p>
+                </div>
+
+                <div class="col-md-3 our-service-style">
+
+                    <h5>Our services</h5>
+
+                    <hr class="accent-2 mb-3 mt-1 d-inline-block mx-auto" style="width:88px;background-color:white;">
+                    <ul>
+                        <li><a href="html/find_doctor.html"><i class="fas fa-caret-right mr-2"></i>Find Doctor</a></li>
+                        <li><a href="html/video_consult.html"><i class="fas fa-caret-right mr-2"></i>VideoConsult</a></li>
+                        <li><a href="html/about-us.html"><i class="fas fa-caret-right mr-2"></i>About Us</a></li>
+                        <li><a href="html/steps-to-doc.html"><i class="fas fa-caret-right mr-2"></i>Doctor Services</a></li>
+                    </ul>
+
+                </div>
+                <div class="col-md-4 get-in-touch-style">
+                    <h5>Get in touch</h5>
+                    <hr class="accent-2 mb-3 mt-1 d-inline-block mx-auto" style="width:88px;background-color:white;">
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt mr-2" style="font-size: 1rem;"></i>C-201,jaldeep icon,makarba,Ahmedabad.</li>
+                        <li><i class="fas fa-phone-alt mr-2" style="font-size: 1rem;"></i>+91 9426140922</li>
+                        <li><i class="fas fa-envelope-open-text mr-2" style="font-size: 1rem;"></i>support@Healthify.gmail.com</li>
+                    </ul>
+
+                    <button onclick="location.href='html/contact-us.html';">Contact Us</button>
+
+                </div>
+
+            </div><!-- end row -->
+        </div> <!-- end container -->
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+
+    <script src="js/index.js"></script>
+     <script src="js/logged_in_user.js"></script> 
+    <script src="js/search.js"></script>
+
+
+
+</body>
+
+</html>

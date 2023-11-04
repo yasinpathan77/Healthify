@@ -1,0 +1,322 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Healthify Drive</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link href="../../css/doctor_css/doc-reg.css" rel="stylesheet">
+
+    <!--Google icon -->
+    <script src="https://kit.fontawesome.com/849b321cb3.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-dark sticky-top flex-md-nowrap p-0">
+        <a class="navbar-brand col-sm-3 col" href="../../Index.html" style="margin-left:0;color: darkblue;">HEALTHIFY</a>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <main role="main" class="col-md-12 ml-sm-auto col-lg-12 pt-4 px-4 rightbar">
+
+                <div class="box-style">
+
+                    <form id="reg-form">
+                        <div class="pic-name-heading ">
+
+                            <div class="row ">
+                                <div class="col">
+                                    <div class="style-img justify-content-md-center">
+
+                                        <img src="../../images/user panel/default.jpg " alt="" class="user-main-img-style  mx-auto d-block"
+                                             id="user-img-change">
+
+                                        <input type="file" id="change-image" class="user-choose-btn-style">                                        
+                                        <small class="alert-txt" id="alert-img"> </small>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                            <div class="row">
+                                <span class="alert-head col-md-12">
+                                    Fields with an asterisk (*) are required
+                                </span>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-md-3">
+                                    <!-- <form action=""> -->
+                                    <label for="fname">First Name</label>
+                                    <input type="text" id="fname" class="textbox-style" placeholder="">
+                                    <!-- </form> -->
+
+                                </div>
+                                <div class="col-md-3">
+                                    <!-- <form action=""> -->
+                                    <label for="lname">Last Name</label>
+                                    <input type="text" id="lname" class="textbox-style" placeholder="">
+                                    <!-- </form> -->
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="phone-email-heading">
+                            <h5 style="color: gray;font-size:1rem; margin-bottom:1.8%;">Personal Information</h5>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <!-- <form action=""> -->
+                                    <label for="phone">Phone number <span class="required"> * </span></label>
+                                    <input type="text" id="phone" class="textbox-style" placeholder="Enter Phone Number">
+                                    <!-- <small class="mt-1 alerts" id="alert-phone"> ughkhkdfghk </small> -->
+                                    <!-- </form> -->
+                                </div>
+
+                                <div class="col-md-3 mt-1">
+
+                                    <!-- <form action=""> -->
+                                    <label for="gender">Gender</label>
+
+                                    <select id="gender" class="drop-style">
+                                        <option value="Male">Male</option>
+                                        <option value="Female">Female</option>
+                                        <option value="Other">Other</option>
+
+                                    </select>
+
+
+                                    <!-- </form> -->
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+
+
+                        <div class="birth-blood-heading">
+                            <div class="row ">
+                                <div class="col-md-3">
+                                    <!-- <form action=""> -->
+                                    <label for="dob">Date of Birth <span class="required"> * </span></label>
+
+                                    <input type="date" id="dob" class="textbox-style">
+
+
+
+                                    <!-- </form> -->
+                                </div>
+
+                                <div class="col-md-3">
+
+                                    <!-- <form action=""> -->
+                                    <label for="speciality">Speciality <span class="required"> * </span></label>
+                                    <!-- <input type="text" id="speciality" class="textbox-style" name="" placeholder="Enter Speciality"> -->
+
+                                    <select id="specialty" class="drop-style">
+                                        <option value="Select Specialty" selected>Select Specialty</option>
+                                    </select>
+
+                                    <!-- </form> -->
+                                </div>
+
+                                <div class="col-md-3">
+
+                                    <!-- <form action=""> -->
+                                    <label for="certificate">Medical Certificate <span class="required"> * </span></label>
+
+                                    <input type="file" id="certificate"> </input>
+                                    <br>
+                                    <small class="alert-txt" id="alert-pdf"> </small>
+
+                                    <!-- </form> -->
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <!--  birth-blood-heading-->
+                        <!--Clinic address -->
+                        <div class="clinic-address-heading">
+                            <h5 style="color: gray;font-size:1rem; margin-bottom:1.5%;">Clinic Address</h5>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <!-- <form action=""> -->
+                                    <label for="phone">House No <span class="required"> * </span></label>
+                                    <input type="text" id="house" class="textbox-style" placeholder="Enter House No">
+
+
+
+                                    <!-- </form> -->
+                                </div>
+                                <div class="col-md-3">
+
+                                    <!-- <form action=""> -->
+                                    <label for="street">Colony / Street <span class="required"> * </span></label>
+                                    <input type="text" id="street" class="textbox-style" name="" placeholder="Enter Colony / Street">
+
+
+                                    <!-- </form> -->
+                                </div>
+
+                                <!-- <div class="col-md-3"> -->
+                                <!-- <form action=""> -->
+                                <!-- <label for="city">City</label>  -->
+                                <!-- <input type="email" id="city" class="textbox-style" name="" placeholder="Enter city"> -->
+                                <!-- </form> -->
+                                <!-- </div> -->
+
+                                <div class="col-md-3">
+
+                                    <!-- <form action=""> -->
+                                    <label for="country">Country</label>
+                                    <input type="text" id="country" class="textbox-style" name="" value="India" disabled>
+
+
+                                    <!-- </form> -->
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+                        <div class="clinic-address-heading-2">
+
+                            <div class="row">
+
+                                <div class="col-md-3 mt-1">
+
+                                    <!-- <form action=""> -->
+                                    <label for="state">State <span class="required"> * </span></label>
+
+                                    <select id="state" class="drop-style">
+                                        <option value="Select State" selected>Select State</option>
+                                    </select>
+
+
+                                    <!-- </form> -->
+                                </div>
+                                <!-- <div class="col-md-3"> -->
+                                <!-- <form action=""> -->
+                                <!-- <label for="state">State</label>  -->
+                                <!-- <input type="text" id="state" class="textbox-style"  placeholder="Enter state"> -->
+                                <!-- </form> -->
+                                <!-- </div> -->
+
+                                <div class="col-md-3 mt-1">
+
+                                    <!-- <form action=""> -->
+                                    <label for="city">City <span class="required"> * </span></label>
+
+                                    <select id="city" class="drop-style">
+                                        <option value="Select City" selected>Select City</option>
+                                    </select>
+
+
+                                    <!-- </form> -->
+                                </div>
+
+                                <div class="col-md-3">
+
+                                    <!-- <form action=""> -->
+                                    <label for="code">Pin Code <span class="required"> * </span></label>
+                                    <input type="text" id="pin-code" class="textbox-style" name="" placeholder="Enter Pin Code">
+
+
+                                    <!-- </form> -->
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+                        <!-- end aaddress -->
+
+
+                        <div class="main-heading">
+
+                            <div class="row ">
+                                <div class="col-md-5">
+
+                                </div>
+                                <div class="col-md-3">
+
+                                    <button type="button" class="btn-style" data-toggle="modal" data-target="" id="save-chng-btn">
+                                        Save
+                                        changes
+                                    </button>
+
+                                    <!--click upload button and open pop Modal -->
+
+                                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                                         aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title main-title" id="exampleModalLongTitle">Terms & Conditions</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"
+                                                            style="color: white;">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+
+                                                <div class="modal-body">
+
+                                                    <h2>Welcome to Healthify</h2>
+                                                    <p> We would contact you within 15 days for confirmation of registration.</p>
+                                                    <p> The details and documents submitted must be authentic, otherwise it would not be considered.</p>
+                                                    <p>Thank You.</p>
+                                                </div>
+
+                                                <div class="modal-footer">
+                                                    <button type="button" class="close-btn-style" data-dismiss="modal">Close</button>
+                                                    <!-- <button type="submit" class="done-btn-style" onclick="medicalReport()">Done</button> -->
+                                                    <button type="submit" id="done" class="done-btn-style">Done</button>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </form>
+                    <!-- main form end -->
+
+                </div>
+                <!-- box style -->
+
+
+            </main>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+
+    <script src="../../js/doctor_js/new-doc_reg.js"></script>
+    <script src="../../js/logged_in_user.js"></script>
+
+</body>
+
+</html>

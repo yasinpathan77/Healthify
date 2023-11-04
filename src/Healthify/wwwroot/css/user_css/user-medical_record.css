@@ -1,0 +1,350 @@
+﻿/* css for upload a file button and background white card*/
+.box-style-up {
+    width: 100%;
+    height: 70px;
+    padding-left: 35px;
+    background-color: white;
+    border-radius: 2px;
+    /* position: fixed; */
+}
+
+/* no record found css */
+.no-record-found-imag {
+    width: 100%;
+    margin-top: 2%;
+    height: 457px;
+    padding-left: 35px;
+    background-color: white;
+    border-radius: 2px;
+    /* position: fixed; */
+}
+
+    .no-record-found-imag .img-set {
+        padding-top: 11%;
+    }
+
+        .no-record-found-imag .img-set p {
+            text-align: center;
+            padding-top: 1%;
+        }
+
+
+.box-style-down-see-upload-details {
+    margin-top: 2%;
+}
+
+.box-style .main-heading h5 {
+    color: black;
+    font-size: 1.2rem;
+    padding: 3%;
+    font-weight: 600;
+}
+
+.box-style-up .btn-style {
+    color: white;
+    font-weight: 600;
+    border: 1px solid #14bef0;
+    background-color: #14bef0;
+    padding: 5px 27px;
+    display: inline-block;
+    margin-top: 8%;
+    margin-left: 8px;
+    border-radius: 5px;
+    margin-bottom: 18%;
+}
+
+    .box-style-up .btn-style:hover {
+        color: white;
+        border: 1px solid #14bef0;
+        background-color: #14bef0;
+    }
+
+/* End upload a file */
+
+
+
+/* click upload file  and open pop css */
+
+.box-style-up .modal .modal-header {
+    background-color: #28328c;
+    border-top-left-radius: calc(0.0rem - 0px);
+    border-top-right-radius: calc(0.0rem - 0px);
+}
+
+    .box-style-up .modal .modal-header .main-title {
+        font-size: 1rem;
+        color: white;
+        font-weight: 650;
+    }
+
+.box-style-up .modal .modal-body .upload-files-style {
+    background-color: #e6e6e6;
+    height: 0%;
+    padding: 4%;
+    margin-bottom: 4%;
+    /* border: 1px solid #14bef0;  */
+}
+
+
+.upload-box input[type="file"] {
+    font: size 0.7rem;
+    margin-left: 5%;
+}
+
+
+/* choose fiie css */
+.upload-btn-style {
+    background-color: #14bef0;
+    color: white;
+    padding: 2% 5%;
+    font-size: 0.8rem;
+    margin-left: 15%;
+}
+
+
+.upload-details .title-textbox {
+    width: 100%;
+    padding: 4px;
+    border: 1px solid #14bef0;
+    font-size: 0.9rem;
+    margin-bottom: 3%;
+}
+
+
+.upload-details .user-date-textbox {
+    width: 49.5%;
+    padding: 4px;
+    color: black;
+    border: 1px solid #14bef0;
+    font-size: 0.9rem;
+}
+
+.upload-details .user-date-textbox {
+    width: 49.5%;
+    padding: 3px;
+    color: black;
+    border: 1px solid #14bef0;
+    font-size: 0.9rem;
+}
+
+
+.upload-details .type-record {
+    background-color: #e6e6e6;
+    padding: 1% 0%;
+}
+
+    .upload-details .type-record label {
+        font-size: 0.9rem;
+        margin-right: 6%;
+        font-weight: 600;
+        color: black;
+    }
+
+
+
+/* below close and done button  css */
+.close-btn-style {
+    background-color: white;
+    font-size: 0.8rem;
+    padding: 1.5% 8%;
+    border: 1px solid #14bef0;
+    color: #14bef0;
+    font-weight: 550;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
+
+
+
+    .close-btn-style:hover {
+        border: 1px solid #14bef0;
+        background-color: #14bef0;
+        color: white;
+        letter-spacing: 1px;
+        font-weight: 550;
+    }
+
+.done-btn-style {
+    background-color: white;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    padding: 1.5% 8%;
+    border: 1px solid #14bef0;
+    background-color: #14bef0;
+    color: white;
+    font-weight: 550;
+    border-radius: 5px;
+}
+
+
+
+/* upload record below pdf show css */
+
+.box-style {
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 2%;
+}
+
+    .box-style:hover {
+        box-shadow: 1px 1px 7px #999999;
+    }
+
+
+.date-box-style {
+    width: 48px;
+    margin-top: 25%;
+    margin-bottom: 17px;
+    border-radius: 5px;
+    background-color: #e6e6e6;
+}
+
+.patient-detail-medical {
+    padding-left: 13%;
+}
+
+.date-box-style h5 {
+    padding-top: 12%;
+    font-size: 1.7rem;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+.date-box-style span {
+    font-weight: 700;
+    color: darkgray;
+    font-size: 1.2rem;
+}
+
+.patient-detail-medical .medical-test-name, .record-details {
+    margin-top: 13px;
+}
+
+    .patient-detail-medical .medical-test-name .test-name {
+        word-wrap: break-word;
+        font-size: 120%;
+        letter-spacing: 1px;
+        font-weight: 500;
+        color: black;
+    }
+
+.patient-detail-medical .test-user-name {
+    margin-top: 12px;
+    color: #787887;
+    font-size: 0.9rem;
+    line-height: 18px;
+}
+/* .patient-detail-medical .app-place{
+    color: #787887;
+    font-size: 0.9rem;
+    line-height:27px;
+    margin-bottom:3%;
+  } */
+
+
+
+
+.detail-style button {
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+    .detail-style button:hover {
+        background-color: transparent;
+    }
+
+.detail-style .dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.new-tag {
+    background-color: rgb(41, 226, 41);
+    color: white;
+    padding: 3px 15px;
+    border-radius: 3px;
+}
+
+
+/* record style */
+
+.record-details {
+    margin-top: 33px;
+}
+
+    .record-details p {
+        word-wrap: break-word;
+        font: size 1.5rem;
+        ;
+        font-weight: 500;
+        color: black;
+    }
+
+
+.btn-style {
+    color: #14bef0;
+    border: 1px solid #14bef0;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 7px 27px;
+    display: inline-block;
+    margin-top: 15%;
+    margin-left: 8px;
+    margin-bottom: 16%;
+}
+
+    .btn-style:hover {
+        color: white;
+        border: 1px solid #14bef0;
+        background-color: #14bef0;
+    }
+
+.dotted {
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.send-btn-style {
+    background-color: white;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    padding: 1.5% 6%;
+    border: 1px solid #14bef0;
+    background-color: #14bef0;
+    color: white;
+    font-weight: 550;
+    border-radius: 5px;
+}
+
+.dropdown-menu li a {
+    cursor: pointer;
+}
+
+.doc-ch {
+    margin: 15px 15px 0px 10px;
+    cursor: pointer;
+}
+
+.doc-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    line-height: 15px;
+    margin-right: 10px;
+}
+
+.doc-list {
+    list-style: none;
+}
+
+    .doc-list li {
+        margin: 15px 10px;
+    }
+
+.doc-list {
+    max-height: 140px;
+    overflow: auto;
+}
