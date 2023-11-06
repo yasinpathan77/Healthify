@@ -3,7 +3,9 @@
 ## Description
 The Doctor & Patient Management System is a comprehensive platform that facilitates efficient management of appointments and medical records for doctors and patients. Doctors can create schedules for online and offline appointments, manage their profiles, and access shared medical records. Patients can easily book appointments and securely share their medical history with their designated doctors.
 
-![System Overview Image](images/system_overview.png)
+## For more Please see the the presentation.key file.
+
+![System Overview Image](https://github.com/yasinpathan77/Healthify/blob/main/src/Healthify/wwwroot/images/favicon.png?raw=true)
 
 ## Features
 - **Appointment Management:**
@@ -16,14 +18,6 @@ The Doctor & Patient Management System is a comprehensive platform that facilita
 - **Medical Records Sharing:**
   - Patients can securely share their medical records with designated doctors.
   - Doctors can access and view shared medical records to better understand patient history.
-
-## Screenshots
-
-### Doctor's Dashboard
-![Doctor's Dashboard](images/doctor_dashboard.png)
-
-### Patient's Appointment Booking
-![Patient's Appointment Booking](images/patient_booking.png)
 
 ## Technologies Used
 - Backend: [List the backend technologies/frameworks used]
