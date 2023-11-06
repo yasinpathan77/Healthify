@@ -20,11 +20,8 @@ The Doctor & Patient Management System is a comprehensive platform that facilita
   - Doctors can access and view shared medical records to better understand patient history.
 
 ## Technologies Used
-- Backend: [List the backend technologies/frameworks used]
-- Frontend: [List the frontend technologies/frameworks used]
-- Database: [List the database technology used]
+- Backend: DotNet 5.
+- Frontend: Html, Css, Vanilla Javascript.
+- Database: MySql
 
-## Installation
-1. Clone the repository
-   ```bash
-   git clone https://github.com/yourusername/doctor-patient-management.git
+
