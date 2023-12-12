@@ -1,7 +1,7 @@
 # Healthify
 
 ## Description
-The Doctor & Patient Management System is a comprehensive platform that facilitates efficient management of appointments and medical records for doctors and patients. Doctors can create schedules for online and offline appointments, manage their profiles, and access shared medical records. Patients can easily book appointments and securely share their medical history with their designated doctors.
+(Last year College Project) The Doctor & Patient Management System is a comprehensive platform that facilitates efficient management of appointments and medical records for doctors and patients. Doctors can create schedules for online and offline appointments, manage their profiles, and access shared medical records. Patients can easily book appointments and securely share their medical history with their designated doctors.
 
 ## For more Please see the the presentation file.
 
